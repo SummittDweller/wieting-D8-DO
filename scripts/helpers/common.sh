@@ -171,7 +171,7 @@ _docker_exec_root() {
 
 # Helper to ensure mysql container is runing.
 _set_container_mysql() {
-  RUNNING=$(docker ps -f "name=mariadb" -f "name=mysql" -f "status=running" -q | head -1 2> /dev/null)
+  RUNNING=$(docker ps -f "name=wieting-database" -f "status=running" -q | head -1 2> /dev/null)
   if [ -z "$RUNNING" ]; then
     die "No running MySQL container found, did you run docker-compose up -d ?"
   else
