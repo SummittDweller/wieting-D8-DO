@@ -18,6 +18,7 @@ build/dashboard/tools/
 tools/*
 !tools/adminer.php
 !tools/phpinfo.php
+!tools/fix-permissions.sh
 # ignore tmp or specific files
 tmp*
 myscripts*

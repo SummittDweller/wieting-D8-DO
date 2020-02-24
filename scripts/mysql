@@ -12,6 +12,8 @@
 # Bash Boilerplate: https://github.com/alphabetum/bash-boilerplate
 # Bash Boilerplate: Copyright (c) 2015 William Melody • hi@williammelody.com
 
+set -x
+
 _SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$_SOURCE" ]; do
   _DIR="$( cd -P "$( dirname "$_SOURCE" )" && pwd )"
