@@ -24,3 +24,5 @@ tmp*
 myscripts*
 .phpintel
 .vscode
+# ingore secured tarballs
+*.gpg
