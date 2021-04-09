@@ -1,0 +1,38 @@
+uuid: a2ab0f20-acc2-4a1b-90cf-65a53042da56
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d40c1bd3-0c48-40ce-8fe0-f86af1fb4794'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - wieting
+id: block_17
+theme: wieting
+region: '-1'
+weight: -7
+provider: null
+plugin: 'block_content:d40c1bd3-0c48-40ce-8fe0-f86af1fb4794'
+settings:
+  id: 'block_content:d40c1bd3-0c48-40ce-8fe0-f86af1fb4794'
+  label: 'Emergency Contacts'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

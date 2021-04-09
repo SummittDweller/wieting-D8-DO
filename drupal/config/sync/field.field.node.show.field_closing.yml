@@ -1,0 +1,21 @@
+uuid: 7377ab27-5b3f-4019-8983-3eedbb96cc07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_closing
+    - node.type.show
+  module:
+    - datetime
+id: node.show.field_closing
+field_name: field_closing
+entity_type: node
+bundle: show
+label: Closing
+description: 'Closing date and time for this show.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

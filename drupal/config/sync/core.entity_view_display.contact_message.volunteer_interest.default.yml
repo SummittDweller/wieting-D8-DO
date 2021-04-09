@@ -1,0 +1,72 @@
+uuid: 51fa483f-4b98-400e-b31e-b8130f9e2527
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.field.contact_message.volunteer_interest.field_desired_role_s_
+    - field.field.contact_message.volunteer_interest.field_email_address_es_
+    - field.field.contact_message.volunteer_interest.field_mailing_address
+    - field.field.contact_message.volunteer_interest.field_name_s_
+    - field.field.contact_message.volunteer_interest.field_phone_number_s_
+    - field.field.contact_message.volunteer_interest.field_usual_availability
+  module:
+    - options
+    - telephone
+id: contact_message.volunteer_interest.default
+targetEntityType: contact_message
+bundle: volunteer_interest
+mode: default
+content:
+  field_desired_role_s_:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_email_address_es_:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_mailing_address:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_name_s_:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone_number_s_:
+    weight: 6
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_usual_availability:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  message:
+    type: basic_string
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

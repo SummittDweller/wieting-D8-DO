@@ -1,0 +1,39 @@
+uuid: 70c62f1c-cbbc-43cb-9ba5-2ff8de7299a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_usual_availability
+field_name: field_usual_availability
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: thursday
+      label: 'Thursday Night (Summer Only)'
+    -
+      value: friday
+      label: 'Friday Night'
+    -
+      value: saturday
+      label: 'Saturday Night'
+    -
+      value: sunday
+      label: 'Sunday Night'
+    -
+      value: saturday-matinee
+      label: 'Saturday Matinee'
+    -
+      value: sunday-matinee
+      label: 'Sunday Matinee'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 6
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

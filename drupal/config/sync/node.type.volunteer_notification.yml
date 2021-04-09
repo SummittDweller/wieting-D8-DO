@@ -1,0 +1,11 @@
+uuid: 25708457-c6ec-4a25-9a74-03dbe83ad4c8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Volunteer Notification'
+type: volunteer_notification
+description: 'Holds pending notifications for volunteers.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

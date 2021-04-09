@@ -1,0 +1,19 @@
+uuid: 7390316b-690c-4587-9b55-f3e64d820ec5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'The Wieting Word!'
+id: the_wieting_word_
+description: 'This is an example newsletter. Change it.'
+format: html
+priority: 3
+receipt: true
+from_name: 'The Wieting Theatre'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: toledowieting@gmail.com
+hyperlinks: false
+new_account: 'on'
+opt_inout: double
+weight: 0

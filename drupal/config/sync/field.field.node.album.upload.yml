@@ -1,0 +1,27 @@
+uuid: 0b1168af-2cbd-49f1-a58b-72734e6ab5c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.album
+  module:
+    - file
+id: node.album.upload
+field_name: upload
+entity_type: node
+bundle: album
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  description_field: true
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx xlsm pdf ppt pps odt ods odp mp3'
+  max_filesize: 32MB
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,11 @@
+uuid: e04f682f-0891-4adf-a268-a8326dcc6f45
+langcode: en
+status: true
+dependencies: {  }
+name: Donation
+type: donation
+description: 'Donation records.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,13 @@
+uuid: db83389d-9db1-4792-99dd-e3dde67ead0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: Raie5CvS3BgV4LB1hGPMcKtCWPhJvttxHeRdbOe9DVk
+id: block_volunteer_from_performance
+label: 'Block the ACTIVE volunteer from working the selected performance(s)'
+type: node
+plugin: block_volunteer_from_performance
+configuration: {  }

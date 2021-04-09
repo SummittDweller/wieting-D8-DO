@@ -1,0 +1,23 @@
+uuid: 2c572857-e9e6-42de-99e3-6cd83c1d8e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pledge_total
+    - node.type.donation
+id: node.donation.field_pledge_total
+field_name: field_pledge_total
+entity_type: node
+bundle: donation
+label: Total
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

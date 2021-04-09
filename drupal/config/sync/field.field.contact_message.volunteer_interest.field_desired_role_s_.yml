@@ -1,0 +1,21 @@
+uuid: 7ead07d8-bd15-4630-86d3-bf137b546ce0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.storage.contact_message.field_desired_role_s_
+  module:
+    - options
+id: contact_message.volunteer_interest.field_desired_role_s_
+field_name: field_desired_role_s_
+entity_type: contact_message
+bundle: volunteer_interest
+label: 'Desired Role(s)'
+description: 'Please select the role(s) you or your team would like to fill.  You may select more than one role.  Concessions and Monitors require at least 2 volunteers per performance, so if you don''t have a team a guild member will contact you to find a suitable partner.  Provide additional details or ask questions in the Message section at the top of this form.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

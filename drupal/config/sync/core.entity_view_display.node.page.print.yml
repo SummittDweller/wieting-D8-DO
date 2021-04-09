@@ -1,0 +1,31 @@
+uuid: 1acc122e-3d51-487d-b10d-c64e55d80c8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.page.body
+    - field.field.node.page.comment
+    - field.field.node.page.upload
+    - field.field.node.page.visibility
+    - node.type.page
+  module:
+    - user
+id: node.page.print
+targetEntityType: node
+bundle: page
+mode: print
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true
+  visibility: true

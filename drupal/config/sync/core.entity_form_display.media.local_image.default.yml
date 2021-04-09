@@ -1,0 +1,79 @@
+uuid: 37f8e93a-6998-4525-8fee-79ee8ed0a005
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.local_image.field_aperture
+    - field.field.media.local_image.field_appears_in_galleries_
+    - field.field.media.local_image.field_camera_model
+    - field.field.media.local_image.field_date_photo_taken
+    - field.field.media.local_image.field_description
+    - field.field.media.local_image.field_exposure
+    - field.field.media.local_image.field_focal_length
+    - field.field.media.local_image.field_height
+    - field.field.media.local_image.field_image_source
+    - field.field.media.local_image.field_iso
+    - field.field.media.local_image.field_mime_type
+    - field.field.media.local_image.field_people_in_photo
+    - field.field.media.local_image.field_width
+    - image.style.thumbnail
+    - media_entity.bundle.local_image
+  module:
+    - image
+    - text
+id: media.local_image.default
+targetEntityType: media
+bundle: local_image
+mode: default
+content:
+  field_appears_in_galleries_:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_image_source:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_people_in_photo:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_aperture: true
+  field_camera_model: true
+  field_date_photo_taken: true
+  field_exposure: true
+  field_focal_length: true
+  field_height: true
+  field_iso: true
+  field_mime_type: true
+  field_width: true
+  path: true
+  uid: true

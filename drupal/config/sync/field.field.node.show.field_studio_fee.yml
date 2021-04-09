@@ -1,0 +1,25 @@
+uuid: a60926fa-d1db-4e23-9373-51268ce6f2b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_studio_fee
+    - node.type.show
+id: node.show.field_studio_fee
+field_name: field_studio_fee
+entity_type: node
+bundle: show
+label: 'Studio Fee'
+description: 'Enter the studio''s minimum fee ($) terms here.'
+required: false
+translatable: true
+default_value:
+  -
+    value: !!float 200
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: '$ '
+  suffix: ''
+field_type: float

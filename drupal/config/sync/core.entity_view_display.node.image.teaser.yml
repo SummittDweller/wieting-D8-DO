@@ -1,0 +1,35 @@
+uuid: fd397613-9a3e-4c58-9729-79e38a4b7fc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.image.body
+    - field.field.node.image.field_image
+    - node.type.image
+  module:
+    - text
+    - user
+id: node.image.teaser
+targetEntityType: node
+bundle: image
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_image: true

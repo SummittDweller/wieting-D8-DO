@@ -1,0 +1,11 @@
+theme: wieting_theme
+defaults:
+  sender: mailgun_mail
+  formatter: mailgun_mail
+_core:
+  default_config_hash: IhwTepsVwtbtbcT5GzQKhCXDCRvbk3MNkWqPiuiZ10s
+modules:
+  swiftmailer:
+    none:
+      formatter: swiftmailer
+      sender: swiftmailer

@@ -1,0 +1,30 @@
+uuid: cdd5c099-06ff-49bc-bab7-e1ebe7db6beb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+  module:
+    - block_content
+    - system
+  theme:
+    - wieting_attractions
+id: block_13
+theme: wieting_attractions
+region: content
+weight: 5
+provider: null
+plugin: 'block_content:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+settings:
+  id: 'block_content:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

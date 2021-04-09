@@ -1,0 +1,22 @@
+uuid: c5691c0c-bb1d-4376-8d6f-4006aadd861e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.donation
+id: node.donation.status
+field_name: status
+entity_type: node
+bundle: donation
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

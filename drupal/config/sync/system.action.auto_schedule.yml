@@ -1,0 +1,13 @@
+uuid: 654dd148-3511-46d3-a564-c926c059b9bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: bzsFqIVlGEr4xoxlLpllDpKX5ERmcu-uhszJq_A-V54
+id: auto_schedule
+label: 'Auto-schedule volunteers for selected performance(s)'
+type: node
+plugin: auto_schedule
+configuration: {  }

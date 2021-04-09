@@ -1,0 +1,10 @@
+uuid: 64b100b0-7e99-4f8f-8402-81e8e5b45925
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
+id: reasonable_looking_time
+label: 'Reasonable Looking Time'
+locked: true
+pattern: 'H:i:s'

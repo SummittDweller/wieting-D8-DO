@@ -1,0 +1,62 @@
+uuid: b0910ae5-b9ff-4df1-b6f5-c8455ef68e14
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.event.body
+    - field.field.node.event.comment
+    - field.field.node.event.field_wieting_related
+    - field.field.node.event.upload
+    - node.type.event
+  module:
+    - comment
+    - file
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    label: hidden
+    weight: -4
+    type: datetime_default
+    settings:
+      format_type: fallback
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  upload:
+    label: hidden
+    settings: {  }
+    type: file_default
+    weight: 102
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_wieting_related: true

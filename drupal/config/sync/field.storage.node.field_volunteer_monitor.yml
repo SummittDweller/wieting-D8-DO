@@ -1,0 +1,20 @@
+uuid: 1869fdf1-b9c7-48db-a255-7988f4becc8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_volunteer_monitor
+field_name: field_volunteer_monitor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 4
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 44376c45-146b-4847-b082-2673c72d36e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.studio
+  module:
+    - text
+id: node.studio.body
+field_name: body
+entity_type: node
+bundle: studio
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

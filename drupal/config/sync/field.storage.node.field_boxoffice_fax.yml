@@ -1,0 +1,19 @@
+uuid: 83b8d1bc-ff7e-477e-ac86-e1907e92d4eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_boxoffice_fax
+field_name: field_boxoffice_fax
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

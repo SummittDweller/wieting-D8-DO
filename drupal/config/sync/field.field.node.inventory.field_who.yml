@@ -1,0 +1,19 @@
+uuid: e2e94f3b-554b-475c-8e0f-df9ce2f8ad38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_who
+    - node.type.inventory
+id: node.inventory.field_who
+field_name: field_who
+entity_type: node
+bundle: inventory
+label: Who
+description: 'Who - Holds the name of a group or individual that purchased or donated the item(s).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

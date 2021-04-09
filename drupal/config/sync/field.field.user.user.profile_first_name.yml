@@ -1,0 +1,21 @@
+uuid: 9a191f28-e542-4c28-afba-0e956cb9c7c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_first_name
+  module:
+    - text
+    - user
+id: user.user.profile_first_name
+field_name: profile_first_name
+entity_type: user
+bundle: user
+label: 'First Name'
+description: '<p>Account holder''s first name.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

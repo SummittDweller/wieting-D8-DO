@@ -1,0 +1,13 @@
+api_key: key-ff755dcaa9ea704491e6dc7a23360f13
+working_domain: mg.summittservices.com
+debug_mode: true
+test_mode: false
+tracking_opens: 'yes'
+tracking_clicks: htmlonly
+tracking_exception: ''
+format_filter: ''
+use_queue: false
+use_theme: false
+tagging_mailkey: false
+_core:
+  default_config_hash: bMOl3jD7ZuzZMuaUYzyqadr56G486ldo28NYIkK_54g

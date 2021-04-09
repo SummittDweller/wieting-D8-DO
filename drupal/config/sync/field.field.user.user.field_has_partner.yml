@@ -1,0 +1,26 @@
+uuid: b3a9e7a3-9630-48b5-98bf-5cc59c8d31af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_has_partner
+  module:
+    - user
+id: user.user.field_has_partner
+field_name: field_has_partner
+entity_type: user
+bundle: user
+label: 'Has Partner'
+description: 'Use this field to select the partner(s) associated with this User in concessions or as a monitor.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: entity_reference_partners
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

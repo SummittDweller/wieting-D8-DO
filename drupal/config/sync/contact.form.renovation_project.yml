@@ -1,0 +1,12 @@
+uuid: b255f430-6efc-498f-a642-2d0394162e95
+langcode: en
+status: true
+dependencies: {  }
+id: renovation_project
+label: 'Renovation Project'
+recipients:
+  - wieting@tamatoledo.org
+reply: 'Thank you for your interest in the Wieting renovation project.  We will try to reply to your inquiry as soon as possible.'
+weight: 0
+message: null
+redirect: null

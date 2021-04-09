@@ -1,0 +1,13 @@
+uuid: da858776-45de-4d08-a300-208848979565
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lsQkbo4njZ-Q_oGKCPGXGWFjWF1I7QpgA6m-t9rcRoA
+id: node_publish_action
+label: 'Publish post'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

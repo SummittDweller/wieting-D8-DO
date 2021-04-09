@@ -1,0 +1,21 @@
+uuid: 283cc547-63b2-4a04-9642-0226baee62f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_performance_times
+    - node.type.performance
+  module:
+    - datetime
+id: node.performance.field_performance_times
+field_name: field_performance_times
+entity_type: node
+bundle: performance
+label: 'Performance Time'
+description: 'The start time (stored as a UTC UNIX timestamp) of the performance.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

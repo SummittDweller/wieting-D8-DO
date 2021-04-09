@@ -1,0 +1,15 @@
+uuid: c33d0817-0a5e-46ab-b8e5-90cb8d7ffa8d
+name: 'The Wieting Theatre'
+mail: toledowieting@gmail.com
+slogan: '101 South Church Street, Toledo, Iowa &bull; (641)&nbsp;484-4440 &bull; ToledoWieting@gmail.com'
+page:
+  403: /
+  404: /
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: toledowieting@gmail.com

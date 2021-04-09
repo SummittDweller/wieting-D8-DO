@@ -1,0 +1,15 @@
+uuid: 6f5794a8-ca5d-4172-97dd-584d40a1df6a
+langcode: en
+status: true
+dependencies: {  }
+name: one_sheet_enlarged_320_px_wide_
+label: 'One Sheet - Enlarged (320 px wide)'
+effects:
+  494b886c-0f7a-4612-99e1-884e21ae465a:
+    uuid: 494b886c-0f7a-4612-99e1-884e21ae465a
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: true

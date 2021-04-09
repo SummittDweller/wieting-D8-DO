@@ -1,0 +1,21 @@
+uuid: 48fbbfba-c606-40b7-ad96-bb03b60c65a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opens
+    - node.type.show
+  module:
+    - datetime
+id: node.show.field_opens
+field_name: field_opens
+entity_type: node
+bundle: show
+label: Opens
+description: 'The date and time when the show opens.  This is a CALCULATED field.  DO NOT populate this field manually. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

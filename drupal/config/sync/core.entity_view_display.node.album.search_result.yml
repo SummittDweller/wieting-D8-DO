@@ -1,0 +1,38 @@
+uuid: 316df67d-e6aa-4c34-96eb-54f6f17b7a48
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.album.body
+    - field.field.node.album.comment
+    - field.field.node.album.field_mp3
+    - field.field.node.album.upload
+    - node.type.album
+  module:
+    - file
+    - user
+id: node.album.search_result
+targetEntityType: node
+bundle: album
+mode: search_result
+content:
+  field_mp3:
+    label: above
+    weight: -3
+    type: file_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true

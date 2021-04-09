@@ -1,0 +1,11 @@
+uuid: f0f295b4-846f-449a-9cc5-6a2876768e5a
+langcode: en
+status: true
+dependencies: {  }
+name: Announcements
+type: announcements
+description: 'An announcement is anything worthy of special note on the site. It may be displayed in a block or page, or both.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

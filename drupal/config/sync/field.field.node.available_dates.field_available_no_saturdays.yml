@@ -1,0 +1,21 @@
+uuid: 373f1776-6ff6-483c-885b-ee9f0c9757ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_no_saturdays
+    - node.type.available_dates
+id: node.available_dates.field_available_no_saturdays
+field_name: field_available_no_saturdays
+entity_type: node
+bundle: available_dates
+label: 'Saturday Nights'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

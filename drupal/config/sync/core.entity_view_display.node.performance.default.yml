@@ -1,0 +1,188 @@
+uuid: 3c41f861-ea64-4662-8803-e606ce9b23de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.performance.comment_no_subject
+    - field.field.node.performance.field_availability_scores
+    - field.field.node.performance.field_blocked_volunteers
+    - field.field.node.performance.field_final_wieting_performance_
+    - field.field.node.performance.field_format
+    - field.field.node.performance.field_opens
+    - field.field.node.performance.field_performance_date
+    - field.field.node.performance.field_performance_ends
+    - field.field.node.performance.field_performance_matinee
+    - field.field.node.performance.field_performance_times
+    - field.field.node.performance.field_reminders_pending
+    - field.field.node.performance.field_show
+    - field.field.node.performance.field_special_concessions
+    - field.field.node.performance.field_special_monitors
+    - field.field.node.performance.field_volunteer_concessions
+    - field.field.node.performance.field_volunteer_manager
+    - field.field.node.performance.field_volunteer_monitor
+    - field.field.node.performance.field_volunteer_ticket_seller
+    - node.type.performance
+  module:
+    - datetime
+    - options
+    - user
+id: node.performance.default
+targetEntityType: node
+bundle: performance
+mode: default
+content:
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_availability_scores:
+    weight: 15
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blocked_volunteers:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_final_wieting_performance_:
+    weight: 4
+    label: inline
+    settings:
+      format: yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_format:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_opens:
+    weight: 6
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_performance_datetime:
+    label: hidden
+    weight: 18
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_performance_ends:
+    weight: 2
+    label: inline
+    settings:
+      timezone_override: America/Chicago
+      date_format: 'g:i A'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_performance_matinee:
+    label: inline
+    weight: 5
+    type: boolean
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    region: content
+  field_performance_times:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: America/Chicago
+      date_format: 'Y-M-d (D) @ g:i A'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_reminders_pending:
+    weight: 11
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_show:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_special_concessions:
+    weight: 12
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_special_monitors:
+    weight: 13
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_volunteer_concessions:
+    weight: 9
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_volunteer_manager:
+    weight: 7
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_volunteer_monitor:
+    weight: 8
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_volunteer_ticket_seller:
+    weight: 10
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  comment_no_subject: true
+  field_performance_date: true
+  links: true

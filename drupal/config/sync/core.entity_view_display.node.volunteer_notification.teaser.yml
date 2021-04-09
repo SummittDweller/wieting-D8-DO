@@ -1,0 +1,44 @@
+uuid: 5221b83a-8e82-4064-accc-1838843bdeb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.volunteer_notification.body
+    - field.field.node.volunteer_notification.comment
+    - node.type.volunteer_notification
+  module:
+    - text
+    - user
+id: node.volunteer_notification.teaser
+targetEntityType: node
+bundle: volunteer_notification
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_dispatch_date:
+    label: above
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

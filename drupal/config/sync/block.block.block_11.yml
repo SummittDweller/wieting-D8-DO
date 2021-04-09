@@ -1,0 +1,30 @@
+uuid: 45583ffb-cd8e-4869-9273-7e2fafa73476
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+  module:
+    - block_content
+    - system
+  theme:
+    - mobile
+id: block_11
+theme: mobile
+region: content
+weight: 5
+provider: null
+plugin: 'block_content:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+settings:
+  id: 'block_content:3dfad090-a223-4500-9f6e-dc8c4eb9204d'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

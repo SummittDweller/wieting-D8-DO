@@ -1,0 +1,8 @@
+uuid: 636c1b2a-7a37-48a7-ba68-270704a031b8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Volunteer Roles'
+vid: volunteer_roles
+description: 'The short list of roles that Wieting volunteers can fill.'
+weight: 0

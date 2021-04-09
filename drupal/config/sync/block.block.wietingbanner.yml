@@ -1,0 +1,31 @@
+uuid: 9c80da7e-5959-4acd-87b9-a47b384ddc83
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c7fbaf17-31e2-471c-bf34-e62bf36d19b5'
+  module:
+    - block_content
+    - system
+  theme:
+    - wieting_theme
+id: wietingbanner
+theme: wieting_theme
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'block_content:c7fbaf17-31e2-471c-bf34-e62bf36d19b5'
+settings:
+  id: 'block_content:c7fbaf17-31e2-471c-bf34-e62bf36d19b5'
+  label: 'Wieting Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

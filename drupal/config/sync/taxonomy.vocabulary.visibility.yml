@@ -1,0 +1,8 @@
+uuid: b9fca1db-7a02-45d0-a2bf-08610eb85ac1
+langcode: en
+status: true
+dependencies: {  }
+name: Visibility
+vid: visibility
+description: 'Describes the visibility (staff, management, public, etc.) of a node.'
+weight: 0

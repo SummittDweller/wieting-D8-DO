@@ -1,0 +1,162 @@
+uuid: f505d7b4-27f1-4f39-b0f7-2a24305b0dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.studio.body
+    - field.field.node.studio.comment
+    - field.field.node.studio.field_booking_info
+    - field.field.node.studio.field_boxoffice_email
+    - field.field.node.studio.field_boxoffice_fax
+    - field.field.node.studio.field_mailing_address
+    - field.field.node.studio.field_payment_info
+    - field.field.node.studio.field_phone
+    - field.field.node.studio.field_wieting_id
+    - field.field.node.studio.upload
+    - node.type.studio
+  module:
+    - comment
+    - file
+    - path
+    - telephone
+    - text
+id: node.studio.default
+targetEntityType: node
+bundle: studio
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  comment:
+    type: comment_default
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_booking_info:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_boxoffice_email:
+    weight: 1
+    type: email_default
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+    region: content
+  field_boxoffice_fax:
+    weight: 7
+    type: string_textarea
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+    region: content
+  field_mailing_address:
+    weight: 3
+    type: text_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_payment_info:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_phone:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_wieting_id:
+    weight: 8
+    type: string_textarea
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 17
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    region: content
+  upload:
+    settings:
+      progress_indicator: throbber
+    type: file_generic
+    weight: 15
+    third_party_settings: {  }
+    region: content
+  url_redirects:
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

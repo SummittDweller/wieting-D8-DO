@@ -1,0 +1,30 @@
+uuid: 92ed31af-092e-4fc3-b7ae-e28deb69988a
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplenews
+    - system
+  theme:
+    - wieting_theme
+id: simplenewssubscription
+theme: wieting_theme
+region: header
+weight: -8
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Subscribe to the Wieting Word!'
+  provider: simplenews
+  label_display: visible
+  newsletters:
+    the_wieting_word_: the_wieting_word_
+  message: 'Stay informed - subscribe to our newsletter.'
+  unique_id: wieting_word_subscribe
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/sign-up"
+    negate: false
+    context_mapping: {  }

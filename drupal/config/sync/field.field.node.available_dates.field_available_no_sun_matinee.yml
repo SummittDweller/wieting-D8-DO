@@ -1,0 +1,21 @@
+uuid: 4186d603-ceb1-4016-a095-cf2064bb0c1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_no_sun_matinee
+    - node.type.available_dates
+id: node.available_dates.field_available_no_sun_matinee
+field_name: field_available_no_sun_matinee
+entity_type: node
+bundle: available_dates
+label: 'Sunday Matinees'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

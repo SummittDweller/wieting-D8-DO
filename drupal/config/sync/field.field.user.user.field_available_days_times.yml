@@ -1,0 +1,21 @@
+uuid: 244ddd4e-5ac4-4ec2-ae55-7ee736c185e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_available_days_times
+  module:
+    - options
+    - user
+id: user.user.field_available_days_times
+field_name: field_available_days_times
+entity_type: user
+bundle: user
+label: 'Available Days/Times'
+description: 'Select all days/times when you are generally AVAILABLE and interested in volunteering.  Select all that apply.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

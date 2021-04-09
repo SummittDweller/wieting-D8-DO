@@ -1,0 +1,13 @@
+uuid: 6c1d123c-c068-4e98-b91f-6c7f412511bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: OLlChP8h9ND490fopz0VwIBAwPRgzssOW26ohUM2vHo
+id: assign_concessions_to_performance
+label: 'Assign the ACTIVE volunteer team as CONCESSIONS for selected performance(s)'
+type: node
+plugin: assign_concessions_to_performance
+configuration: {  }

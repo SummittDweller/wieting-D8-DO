@@ -1,0 +1,21 @@
+uuid: d7a2dab3-01d1-4c3d-b1d7-74960a5540f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_performance_ends
+    - node.type.performance
+  module:
+    - datetime
+id: node.performance.field_performance_ends
+field_name: field_performance_ends
+entity_type: node
+bundle: performance
+label: 'End Time'
+description: 'The performance end time (stored as UTC UNIX timestamp).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

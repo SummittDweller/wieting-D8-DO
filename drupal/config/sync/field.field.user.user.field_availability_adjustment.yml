@@ -1,0 +1,26 @@
+uuid: f437a2d7-5038-49b9-bed9-e93de40b5cc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_availability_adjustment
+  module:
+    - user
+id: user.user.field_availability_adjustment
+field_name: field_availability_adjustment
+entity_type: user
+bundle: user
+label: 'Availability Adjustment'
+description: 'Value used to adjust availability for auto-scheduling of volunteers.  A high number, like 99, will make it unlikely that the volunteer is selected while a low number, like the default of zero, has no effect.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 3c132724-a238-4eef-93f6-48f8dc199a4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_exif_model
+field_name: field_exif_model
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

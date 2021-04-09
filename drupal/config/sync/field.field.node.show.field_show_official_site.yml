@@ -1,0 +1,23 @@
+uuid: fea16e47-546b-4451-b9e1-b8ebe56535da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_official_site
+    - node.type.show
+  module:
+    - link
+id: node.show.field_show_official_site
+field_name: field_show_official_site
+entity_type: node
+bundle: show
+label: 'Official Site'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: null
+  link_type: 17
+field_type: link

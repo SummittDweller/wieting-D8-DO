@@ -1,0 +1,39 @@
+uuid: dbc44357-b68a-429c-9742-879b5c706ffd
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_available_days_times
+field_name: field_available_days_times
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Thursday Night'
+      label: 'Thursday Night'
+    -
+      value: 'Friday Night'
+      label: 'Friday Night'
+    -
+      value: 'Saturday Matinee'
+      label: 'Saturday Matinee'
+    -
+      value: 'Saturday Night'
+      label: 'Saturday Night'
+    -
+      value: 'Sunday Matinee'
+      label: 'Sunday Matinee'
+    -
+      value: 'Sunday Night'
+      label: 'Sunday Night'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 6
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

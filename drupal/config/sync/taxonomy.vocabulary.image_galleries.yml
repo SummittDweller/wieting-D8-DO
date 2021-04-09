@@ -1,0 +1,8 @@
+uuid: 6ebb2290-4184-4735-bae1-6efc3a6df3fe
+langcode: en
+status: true
+dependencies: {  }
+name: 'Image Galleries'
+vid: image_galleries
+description: 'Classifications for gallery images (photos).'
+weight: 0

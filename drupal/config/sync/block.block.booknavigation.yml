@@ -1,0 +1,35 @@
+uuid: e2ed67a7-cfc6-4ca8-90c7-e6b6908fb2a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - ctools
+    - system
+  theme:
+    - wieting_theme
+id: booknavigation
+theme: wieting_theme
+region: content
+weight: -10
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  provider: book
+  label_display: '0'
+  block_mode: 'book pages'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: wieting-history
+    negate: false
+    context_mapping: {  }

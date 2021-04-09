@@ -1,0 +1,25 @@
+uuid: c3ff4a6e-72c1-4791-9077-a07329a984c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - wieting
+id: user_27
+theme: wieting
+region: footer
+weight: -8
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

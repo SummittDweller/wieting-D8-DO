@@ -1,0 +1,39 @@
+uuid: f3391511-4d7a-4bf9-807f-570de35c5336
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - wieting_attractions
+id: user_22
+theme: wieting_attractions
+region: content
+weight: 4
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      manager: manager
+      finance: finance
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

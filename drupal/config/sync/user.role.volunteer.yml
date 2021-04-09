@@ -1,0 +1,11 @@
+uuid: 34a89a88-2e85-49a0-80ce-71938cad1a70
+langcode: en
+status: true
+dependencies: {  }
+id: volunteer
+label: Volunteer
+weight: -6
+is_admin: null
+permissions:
+  - 'delete own blocked_performance content'
+  - 'edit own blocked_performance content'

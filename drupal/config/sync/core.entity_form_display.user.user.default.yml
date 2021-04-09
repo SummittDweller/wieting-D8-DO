@@ -1,0 +1,184 @@
+uuid: 1f16cc5a-5503-4d36-aae7-dfbf98aaac9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_availability_adjustment
+    - field.field.user.user.field_available
+    - field.field.user.user.field_available_days_times
+    - field.field.user.user.field_concessions_team
+    - field.field.user.user.field_has_partner
+    - field.field.user.user.field_manager_team
+    - field.field.user.user.field_monitor_team
+    - field.field.user.user.field_team_name
+    - field.field.user.user.field_ticket_seller_team
+    - field.field.user.user.field_volunteer_roles
+    - field.field.user.user.profile_2nd_email
+    - field.field.user.user.profile_2nd_phone
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_email
+    - field.field.user.user.profile_first_name
+    - field.field.user.user.profile_last_name
+    - field.field.user.user.profile_mailing_name
+    - field.field.user.user.profile_phone
+    - field.field.user.user.profile_schedule_by_mail
+    - field.field.user.user.profile_street
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: LLAieeozVsoZDb-2PbFxRJpQqnKmpR7-4OoRJnduz-U
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_availability_adjustment:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_available_days_times:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_concessions_team:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_has_partner:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_manager_team:
+    weight: 16
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_monitor_team:
+    weight: 17
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ticket_seller_team:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_volunteer_roles:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  profile_2nd_phone:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 6
+    third_party_settings: {  }
+    region: content
+  profile_city:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 8
+    third_party_settings: {  }
+    region: content
+  profile_email:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+  profile_first_name:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 3
+    third_party_settings: {  }
+    region: content
+  profile_last_name:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 2
+    third_party_settings: {  }
+    region: content
+  profile_mailing_name:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 4
+    third_party_settings: {  }
+    region: content
+  profile_phone:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 5
+    third_party_settings: {  }
+    region: content
+  profile_schedule_by_mail:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    third_party_settings: {  }
+    region: content
+  profile_street:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 7
+    third_party_settings: {  }
+    region: content
+  simplenews:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  timezone:
+    weight: 6
+    region: content
+hidden:
+  contact: true
+  field_available: true
+  field_team_name: true
+  google_analytics: true
+  language: true
+  path: true
+  profile_2nd_email: true

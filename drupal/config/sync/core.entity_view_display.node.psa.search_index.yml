@@ -1,0 +1,38 @@
+uuid: ba1293ee-de5c-41c7-8af7-50806d5c9298
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.psa.body
+    - field.field.node.psa.comment
+    - field.field.node.psa.upload
+    - node.type.psa
+  module:
+    - user
+id: node.psa.search_index
+targetEntityType: node
+bundle: psa
+mode: search_index
+content:
+  field_event_date:
+    label: hidden
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true

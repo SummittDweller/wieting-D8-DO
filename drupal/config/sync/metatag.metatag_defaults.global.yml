@@ -1,0 +1,19 @@
+uuid: 4105f978-c1cf-4766-ad4a-bc76c3b0b396
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  content_language: en
+  description: 'Toledo''s Wieting Theatre is a community-owned 100+ year old small-town opera house with modern stage and cinema systems.  We are non-profit and have a staff of more than 120 outstanding volunteers.   '
+  geo_placename: 'Toledo, Iowa'
+  geo_position: '41.9812, -92.5794'
+  geo_region: US-IA
+  icbm: '41.9812, -92.5794'
+  keywords: 'theatre, opera, cinema, stage, modern, volunteer, non-profit'
+  robots: 'index, follow, noarchive, noydir, noimageindex, notranslate'
+  title: '[current-page:title] | [site:name]'

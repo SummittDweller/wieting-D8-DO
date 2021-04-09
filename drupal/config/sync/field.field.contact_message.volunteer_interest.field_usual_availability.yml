@@ -1,0 +1,21 @@
+uuid: 723bf558-79fe-4699-8e18-65a6d33a50fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.storage.contact_message.field_usual_availability
+  module:
+    - options
+id: contact_message.volunteer_interest.field_usual_availability
+field_name: field_usual_availability
+entity_type: contact_message
+bundle: volunteer_interest
+label: 'Usual Availability'
+description: 'Please select the days and times when you will usually be available, or prefer to volunteer.  You may select more than one value.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

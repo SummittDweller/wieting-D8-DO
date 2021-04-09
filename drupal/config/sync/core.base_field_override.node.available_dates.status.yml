@@ -1,0 +1,22 @@
+uuid: 910ca519-a994-4167-b3b8-429bbc3b8808
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.available_dates
+id: node.available_dates.status
+field_name: status
+entity_type: node
+bundle: available_dates
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

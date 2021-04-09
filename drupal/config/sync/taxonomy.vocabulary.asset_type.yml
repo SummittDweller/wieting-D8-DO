@@ -1,0 +1,8 @@
+uuid: 1bdeaf43-6b6a-4844-888c-7d5dfa24c62f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Asset Type'
+vid: asset_type
+description: 'The major classification of type of an asset/inventory item.'
+weight: 0

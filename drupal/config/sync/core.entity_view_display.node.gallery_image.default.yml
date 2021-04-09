@@ -1,0 +1,43 @@
+uuid: e44f9a95-045c-4c6f-9e54-cd9697b48cea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery_image.body
+    - field.field.node.gallery_image.field_basic_gallery_image
+    - node.type.gallery_image
+    - responsive_image.styles.narrow
+  module:
+    - responsive_image
+    - text
+    - user
+id: node.gallery_image.default
+targetEntityType: node
+bundle: gallery_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_basic_gallery_image:
+    weight: 0
+    label: above
+    settings:
+      responsive_image_style: narrow
+      image_link: file
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

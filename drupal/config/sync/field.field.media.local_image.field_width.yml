@@ -1,0 +1,19 @@
+uuid: 5be8811d-7f56-4f5d-9ee1-aad6740ece28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_width
+    - media_entity.bundle.local_image
+id: media.local_image.field_width
+field_name: field_width
+entity_type: media
+bundle: local_image
+label: Width
+description: 'This field is auto-populated with EXIF data.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

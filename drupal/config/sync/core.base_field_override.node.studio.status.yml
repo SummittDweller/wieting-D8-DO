@@ -1,0 +1,22 @@
+uuid: c635672c-7751-4e63-9305-a8998d22bc93
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.studio
+id: node.studio.status
+field_name: status
+entity_type: node
+bundle: studio
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

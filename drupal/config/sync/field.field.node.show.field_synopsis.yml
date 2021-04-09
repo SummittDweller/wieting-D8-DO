@@ -1,0 +1,21 @@
+uuid: 14404aa1-fb2f-4833-9157-950491012151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_synopsis
+    - node.type.show
+  module:
+    - text
+id: node.show.field_synopsis
+field_name: field_synopsis
+entity_type: node
+bundle: show
+label: 'Production Notes'
+description: 'Enter any Wieting-specific production notes for public display.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

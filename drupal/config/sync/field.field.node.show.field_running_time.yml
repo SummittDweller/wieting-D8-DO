@@ -1,0 +1,23 @@
+uuid: 7c6f4d7a-5338-425d-88df-67f7f4310625
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_running_time
+    - node.type.show
+id: node.show.field_running_time
+field_name: field_running_time
+entity_type: node
+bundle: show
+label: 'Running Time'
+description: 'Enter the event running time (including trailers if this is a movie).'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10
+  max: null
+  prefix: ''
+  suffix: ' minutes'
+field_type: integer

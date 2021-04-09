@@ -1,0 +1,20 @@
+uuid: 7e3d0790-e955-458a-ad66-d6c5546c7915
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_available
+  module:
+    - user
+id: user.user.field_available
+field_name: field_available
+entity_type: user
+bundle: user
+label: Available
+description: 'This is a CALCULATED field representing the volunteer''s availability as a string.  A fully available volunteer appears as ''TFsSuU'' where T=Thursday, F=Friday, s=Saturday Matinee, S=Saturday Night, u=Sunday Matinee, and U=Sunday Night.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

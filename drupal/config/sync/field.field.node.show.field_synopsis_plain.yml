@@ -1,0 +1,21 @@
+uuid: 9d66e284-f5dd-486b-9517-ca43293a7d98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_synopsis_plain
+    - node.type.show
+id: node.show.field_synopsis_plain
+field_name: field_synopsis_plain
+entity_type: node
+bundle: show
+label: Synopsis
+description: 'Use this field to provide a synopsis/summary of the show''s content.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Please provide a brief synopsis of the show.'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

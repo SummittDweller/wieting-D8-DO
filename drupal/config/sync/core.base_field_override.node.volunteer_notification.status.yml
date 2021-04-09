@@ -1,0 +1,22 @@
+uuid: 57cf75a3-d54b-4882-bf8c-437d39dafb3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.volunteer_notification
+id: node.volunteer_notification.status
+field_name: status
+entity_type: node
+bundle: volunteer_notification
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

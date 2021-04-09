@@ -1,0 +1,68 @@
+uuid: d35f0acc-c0d4-4c0c-8aa4-859dca83e075
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.studio.body
+    - field.field.node.studio.comment
+    - field.field.node.studio.field_booking_info
+    - field.field.node.studio.field_boxoffice_email
+    - field.field.node.studio.field_boxoffice_fax
+    - field.field.node.studio.field_mailing_address
+    - field.field.node.studio.field_payment_info
+    - field.field.node.studio.field_phone
+    - field.field.node.studio.field_wieting_id
+    - field.field.node.studio.upload
+    - node.type.studio
+  module:
+    - text
+    - user
+id: node.studio.rss
+targetEntityType: node
+bundle: studio
+mode: rss
+content:
+  field_boxoffice_email:
+    label: inline
+    weight: -4
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_boxoffice_fax:
+    label: inline
+    weight: -3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_mailing_address:
+    label: above
+    weight: -2
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_wieting_id:
+    label: inline
+    weight: -1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_booking_info: true
+  field_payment_info: true
+  field_phone: true
+  upload: true

@@ -1,0 +1,30 @@
+uuid: 9536e359-6347-4922-a812-747c0aa45532
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+  module:
+    - block_content
+    - system
+  theme:
+    - wieting_attractions
+id: block_4
+theme: wieting_attractions
+region: content
+weight: -26
+provider: null
+plugin: 'block_content:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+settings:
+  id: 'block_content:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

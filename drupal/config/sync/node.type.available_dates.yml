@@ -1,0 +1,11 @@
+uuid: dd97e744-5f12-4853-8365-fcd78c1bea01
+langcode: en
+status: true
+dependencies: {  }
+name: 'NOT Avaliable Dates'
+type: available_dates
+description: 'A data structure to hold the regular dates (fridays, saturdays, sundays) and specific dates that a particular volunteer cannot work at the theatre.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

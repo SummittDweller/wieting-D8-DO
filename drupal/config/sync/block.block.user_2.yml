@@ -1,0 +1,25 @@
+uuid: 0125b798-2b69-40e9-99ed-213cf9a71c99
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - inf08
+id: user_2
+theme: inf08
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Volunteer Login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

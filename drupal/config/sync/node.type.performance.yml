@@ -1,0 +1,18 @@
+uuid: 55266948-8d22-430f-9988-ed66f60ab03a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Performance
+type: performance
+description: 'A performance is an instance of a ''show'' with a specific performance date and time and assigned theatre staff.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

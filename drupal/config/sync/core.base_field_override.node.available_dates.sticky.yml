@@ -1,0 +1,22 @@
+uuid: 4d86913e-cfce-42d5-8bfd-2d4347d8ca55
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.available_dates
+id: node.available_dates.sticky
+field_name: sticky
+entity_type: node
+bundle: available_dates
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

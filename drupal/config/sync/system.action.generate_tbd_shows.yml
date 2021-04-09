@@ -1,0 +1,13 @@
+uuid: 0d44f62e-ffde-4055-88a2-19bed60fb73c
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: QSXA6y5ZfTu9oBP9htKvLOuQZmHEyqI7VqR3Psi6qSQ
+id: generate_tbd_shows
+label: 'Generate 3 months of TBD shows'
+type: node
+plugin: generate_tbd_shows
+configuration: {  }

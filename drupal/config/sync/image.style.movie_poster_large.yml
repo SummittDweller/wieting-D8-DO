@@ -1,0 +1,15 @@
+uuid: 09ff7f54-eecb-431f-a15a-c8a9f09c5037
+langcode: en
+status: true
+dependencies: {  }
+name: movie_poster_large
+label: 'One Sheet - Large (214 x 317)'
+effects:
+  7578a42e-c470-492f-918a-e0d9dcf5535f:
+    uuid: 7578a42e-c470-492f-918a-e0d9dcf5535f
+    id: image_scale
+    weight: 0
+    data:
+      width: 214
+      height: 317
+      upscale: true

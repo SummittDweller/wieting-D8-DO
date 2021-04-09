@@ -1,0 +1,21 @@
+uuid: c1c2b566-ed32-452f-8a70-67d8026eabf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_city
+  module:
+    - text
+    - user
+id: user.user.profile_city
+field_name: profile_city
+entity_type: user
+bundle: user
+label: 'City, State   Zip'
+description: '<p>The name of the &quot;city, state&nbsp; zip&quot; corresponding to the street address. &nbsp;For example, the theatre is in &quot;Toledo, Iowa&nbsp; 52342&quot;.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,123 @@
+uuid: c801262e-a873-4f95-a427-c3fb088fcbc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.photography.body
+    - field.field.node.photography.field_exif_author
+    - field.field.node.photography.field_exif_filedatetime
+    - field.field.node.photography.field_exif_model
+    - field.field.node.photography.field_image
+    - node.type.photography
+  module:
+    - exif
+    - path
+    - text
+id: node.photography.default
+targetEntityType: node
+bundle: photography
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_exif_author:
+    type: exif_readonly
+    settings:
+      image_field: field_image
+      exif_field: naming_convention
+      exif_field_separator: ''
+    weight: 125
+    third_party_settings: {  }
+    region: content
+  field_exif_filedatetime:
+    type: exif_readonly
+    settings:
+      image_field: field_image
+      exif_field: naming_convention
+      exif_field_separator: ''
+    weight: 124
+    third_party_settings: {  }
+    region: content
+  field_exif_model:
+    type: exif_readonly
+    settings:
+      exif_field_separator: ''
+      exif_field: naming_convention
+      image_field: null
+    weight: 123
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: exif_readonly
+    settings:
+      exif_field_separator: ''
+      exif_field: naming_convention
+      image_field: null
+    weight: 122
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

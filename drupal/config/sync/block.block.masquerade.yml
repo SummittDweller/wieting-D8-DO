@@ -1,0 +1,34 @@
+uuid: b0a1697c-2928-44ba-a90d-164d08b8a862
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+    - system
+    - user
+  theme:
+    - wieting_theme
+id: masquerade
+theme: wieting_theme
+region: header
+weight: -9
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/edit-volunteer-assignments/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

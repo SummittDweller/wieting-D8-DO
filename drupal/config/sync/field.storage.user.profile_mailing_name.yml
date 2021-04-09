@@ -1,0 +1,20 @@
+uuid: 7e0037ab-3240-416e-bf95-4eaee0a2f800
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_mailing_name
+field_name: profile_mailing_name
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

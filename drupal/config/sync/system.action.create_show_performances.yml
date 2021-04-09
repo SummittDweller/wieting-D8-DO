@@ -1,0 +1,13 @@
+uuid: 75424960-4d4c-40b8-8984-1a5cbc484a18
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: 8Wm9dHn2ETV1des78j7mJgGag1s46C0IgReIWmhjqiQ
+id: create_show_performances
+label: 'Create a set of performances for selected show(s)'
+type: node
+plugin: create_show_performances
+configuration: {  }

@@ -1,0 +1,12 @@
+uuid: f260cfab-1cd5-4653-9f6b-9c45fe8694f5
+langcode: en
+status: true
+dependencies: {  }
+id: website_feedback
+label: 'Website Feedback'
+recipients:
+  - mark@tamatoledo.net
+reply: 'Thank you for your feedback.  We will do our best to reply as soon as possible.'
+weight: 0
+message: null
+redirect: null

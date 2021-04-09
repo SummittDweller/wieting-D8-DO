@@ -1,0 +1,21 @@
+uuid: 82f716e6-9d0f-4956-a56b-46b1482c1ccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_mailing_name
+  module:
+    - text
+    - user
+id: user.user.profile_mailing_name
+field_name: profile_mailing_name
+entity_type: user
+bundle: user
+label: 'Mailing Address Name'
+description: '<p>If you wish to recieve information via US&nbsp;Postal mail be sure to enter your name (as it should appear on the envelope) here.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

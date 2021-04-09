@@ -1,0 +1,22 @@
+uuid: a9152efa-4a4d-4689-9bb8-645baebb127b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - wieting
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: wieting_breadcrumbs
+theme: wieting
+region: '-1'
+weight: -2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

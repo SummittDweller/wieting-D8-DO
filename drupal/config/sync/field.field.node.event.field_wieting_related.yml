@@ -1,0 +1,21 @@
+uuid: cbbf2231-d1b8-4e71-aebc-ec1391b88c21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wieting_related
+    - node.type.event
+id: node.event.field_wieting_related
+field_name: field_wieting_related
+entity_type: node
+bundle: event
+label: Wieting-Related
+description: 'Check this box for <b>PUBLIC</b> Wieting events only.  Public events will appear on the Wieting calendar and home page display; private events will not.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

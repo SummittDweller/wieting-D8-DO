@@ -1,0 +1,199 @@
+uuid: 493ef934-c63e-4de0-af61-c5f6b70d1d0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_availability_adjustment
+    - field.field.user.user.field_available
+    - field.field.user.user.field_available_days_times
+    - field.field.user.user.field_concessions_team
+    - field.field.user.user.field_has_partner
+    - field.field.user.user.field_manager_team
+    - field.field.user.user.field_monitor_team
+    - field.field.user.user.field_team_name
+    - field.field.user.user.field_ticket_seller_team
+    - field.field.user.user.field_volunteer_roles
+    - field.field.user.user.profile_2nd_email
+    - field.field.user.user.profile_2nd_phone
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_email
+    - field.field.user.user.profile_first_name
+    - field.field.user.user.profile_last_name
+    - field.field.user.user.profile_mailing_name
+    - field.field.user.user.profile_phone
+    - field.field.user.user.profile_schedule_by_mail
+    - field.field.user.user.profile_street
+  module:
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_availability_adjustment:
+    weight: 12
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_available:
+    weight: 13
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_available_days_times:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_concessions_team:
+    weight: 19
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_has_partner:
+    weight: 15
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_manager_team:
+    weight: 16
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_monitor_team:
+    weight: 17
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ticket_seller_team:
+    weight: 18
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_volunteer_roles:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  masquerade:
+    weight: 21
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  member_for:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  profile_2nd_email:
+    label: hidden
+    settings: {  }
+    type: text_default
+    weight: 7
+    third_party_settings: {  }
+    region: content
+  profile_2nd_phone:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 5
+    third_party_settings: {  }
+    region: content
+  profile_city:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 9
+    third_party_settings: {  }
+    region: content
+  profile_email:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 6
+    third_party_settings: {  }
+    region: content
+  profile_first_name:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 1
+    third_party_settings: {  }
+    region: content
+  profile_last_name:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 0
+    third_party_settings: {  }
+    region: content
+  profile_mailing_name:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 2
+    third_party_settings: {  }
+    region: content
+  profile_phone:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 4
+    third_party_settings: {  }
+    region: content
+  profile_schedule_by_mail:
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    type: boolean
+    weight: 10
+    third_party_settings: {  }
+    region: content
+  profile_street:
+    label: inline
+    settings: {  }
+    type: text_default
+    weight: 8
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_team_name: true
+  profile_availability: true
+  profile_volunteer: true
+  simplenews: true

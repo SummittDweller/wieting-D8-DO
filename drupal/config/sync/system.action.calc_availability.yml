@@ -1,0 +1,13 @@
+uuid: 8723ca9f-41c4-4c55-957f-cc8ca27b06ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: CWPI_mpKbl9ltTEK1vALedswZHXmBNlBS2aVLTMbVM8
+id: calc_availability
+label: 'Calculate volunteer availability scores for selected performance(s)'
+type: node
+plugin: calc_availability
+configuration: {  }

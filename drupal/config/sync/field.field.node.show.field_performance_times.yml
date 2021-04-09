@@ -1,0 +1,21 @@
+uuid: d730c296-2de3-471f-aba4-f28d2f7ae067
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_performance_times
+    - node.type.show
+  module:
+    - datetime
+id: node.show.field_performance_times
+field_name: field_performance_times
+entity_type: node
+bundle: show
+label: 'Performance Times'
+description: 'Enter the date(s) and time(s) for each performance of this show.  Performance nodes will be generated from this data.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

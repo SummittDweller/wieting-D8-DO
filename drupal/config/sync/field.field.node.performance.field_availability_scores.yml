@@ -1,0 +1,21 @@
+uuid: f37e8593-a667-485a-86c9-06cc8cf0bbf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_availability_scores
+    - node.type.performance
+id: node.performance.field_availability_scores
+field_name: field_availability_scores
+entity_type: node
+bundle: performance
+label: 'Availability Scores'
+description: 'Calculated volunteer availability scores for a given performance.  Each is stored as text in the form "name|uid|score" where ''name'' is the volunteer''s name, ''uid'' is their user ID, and ''score'' is their availability score for this performance.  Zero is the default score and the higher the score the less available the person is.  Volunteers not listed for the performance have been BLOCKED or deactivated.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'HELP NEEDED|249|0'
+default_value_callback: ''
+settings: {  }
+field_type: string

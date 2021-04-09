@@ -1,0 +1,20 @@
+uuid: 29df2382-0a44-4bd4-a486-5ef35c7df797
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_street
+field_name: profile_street
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

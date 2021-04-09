@@ -1,0 +1,21 @@
+uuid: 4f870086-ef15-482b-bbd2-f798cff2b8e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anonymous
+    - node.type.donation
+id: node.donation.field_anonymous
+field_name: field_anonymous
+entity_type: node
+bundle: donation
+label: Anonymous
+description: '<p>Check this box ONLY if the donation is to be ANONYMOUS.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

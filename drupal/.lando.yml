@@ -1,0 +1,6 @@
+name: wieting
+recipe: drupal8
+config:
+  webroot: web
+  via: nginx
+  database: mariadb

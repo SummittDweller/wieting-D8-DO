@@ -1,0 +1,19 @@
+uuid: dab2b36b-1027-478a-a26d-b005760856f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.storage.contact_message.field_email_address_es_
+id: contact_message.volunteer_interest.field_email_address_es_
+field_name: field_email_address_es_
+entity_type: contact_message
+bundle: volunteer_interest
+label: 'Email Address(es)'
+description: 'Enter up to 5 valid email addresses, enough for one per person if you are signing up the whole family.  The first email address listed will be the primary contact, and the Wieting will send all notifications and invitations to that address.  Other addresses may or may not receive all notifications.  Please DO NOT specify the same email address more than once as our system cannot accommodate re-use of duplicate addresses.  Any duplicates you provide will be ignored.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

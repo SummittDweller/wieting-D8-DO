@@ -1,0 +1,21 @@
+uuid: 233c7ac9-d67d-4cff-bf57-567b3b5d67d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pledge_or_donation
+    - node.type.donation
+  module:
+    - options
+id: node.donation.field_pledge_or_donation
+field_name: field_pledge_or_donation
+entity_type: node
+bundle: donation
+label: 'Pledge or Donation?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

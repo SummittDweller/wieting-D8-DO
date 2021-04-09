@@ -1,0 +1,21 @@
+uuid: 5c97560e-8c4f-4672-839f-19ac34c2e105
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_rating
+    - node.type.show
+  module:
+    - options
+id: node.show.field_show_rating
+field_name: field_show_rating
+entity_type: node
+bundle: show
+label: 'MPAA Rating'
+description: '<p>If this is cinema select the MPAA rating from the list provided.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

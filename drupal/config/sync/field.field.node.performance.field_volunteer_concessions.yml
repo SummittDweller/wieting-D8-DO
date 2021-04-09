@@ -1,0 +1,36 @@
+uuid: 160dddd4-b068-431b-9e9f-9194f1c9a472
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volunteer_concessions
+    - node.type.performance
+id: node.performance.field_volunteer_concessions
+field_name: field_volunteer_concessions
+entity_type: node
+bundle: performance
+label: 'Volunteer Concessions'
+description: 'Reference to the volunteers assigned to concessions for this Performance.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        manager: manager
+        volunteer: volunteer
+        administrator: '0'
+        editor: '0'
+        student: '0'
+        finance: '0'
+    target_bundles: null
+    sort:
+      field: profile_last_name.value
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

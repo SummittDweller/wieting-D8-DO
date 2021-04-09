@@ -1,0 +1,30 @@
+uuid: d0db3075-aeaf-4758-bbb1-c9a8f4bea5e0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:55f4a80e-3058-4b58-a9ac-e72c8f7b0f9f'
+  module:
+    - block_content
+    - system
+  theme:
+    - abarre
+id: block_3
+theme: abarre
+region: content
+weight: -24
+provider: null
+plugin: 'block_content:55f4a80e-3058-4b58-a9ac-e72c8f7b0f9f'
+settings:
+  id: 'block_content:55f4a80e-3058-4b58-a9ac-e72c8f7b0f9f'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /coming_attractions

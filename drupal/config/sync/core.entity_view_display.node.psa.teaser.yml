@@ -1,0 +1,45 @@
+uuid: f2ad4f81-e403-4b1f-976f-b1719ec0e2ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.psa.body
+    - field.field.node.psa.comment
+    - field.field.node.psa.upload
+    - node.type.psa
+  module:
+    - text
+    - user
+id: node.psa.teaser
+targetEntityType: node
+bundle: psa
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    label: hidden
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true

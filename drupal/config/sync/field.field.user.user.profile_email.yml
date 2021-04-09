@@ -1,0 +1,21 @@
+uuid: 056e6302-0de9-44e2-925c-7421035eb854
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_email
+  module:
+    - text
+    - user
+id: user.user.profile_email
+field_name: profile_email
+entity_type: user
+bundle: user
+label: E-Mail
+description: '<p>Primary contact e-mail address.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

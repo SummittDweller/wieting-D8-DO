@@ -1,0 +1,18 @@
+uuid: c2bfaa20-ca9c-49be-b3a3-4e57c2aec29d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_available_no_sat_matinee
+field_name: field_available_no_sat_matinee
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

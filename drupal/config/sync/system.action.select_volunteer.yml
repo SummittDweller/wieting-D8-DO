@@ -1,0 +1,13 @@
+uuid: 3bbe52f4-2f43-4504-87c7-2451ad6e217e
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: j6f5jSTnj_IdzQDmAopkpmOW46MmHwcfo1ex3MUIPhA
+id: select_volunteer
+label: 'Select the ACTIVE Wieting volunteer(s).  Pick as many as you like!'
+type: user
+plugin: select_volunteer
+configuration: {  }

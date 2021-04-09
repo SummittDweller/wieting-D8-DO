@@ -1,0 +1,21 @@
+uuid: 1ac39659-7e97-4390-8c13-ebc61b00cedc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_no_sat_matinee
+    - node.type.available_dates
+id: node.available_dates.field_available_no_sat_matinee
+field_name: field_available_no_sat_matinee
+entity_type: node
+bundle: available_dates
+label: 'Saturday Matinees'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

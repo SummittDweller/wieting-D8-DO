@@ -1,0 +1,38 @@
+uuid: fa30263d-414c-489e-aa3d-cae5783452ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.psa.body
+    - field.field.node.psa.comment
+    - field.field.node.psa.upload
+    - node.type.psa
+  module:
+    - user
+id: node.psa.print
+targetEntityType: node
+bundle: psa
+mode: print
+content:
+  field_event_date:
+    label: hidden
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true

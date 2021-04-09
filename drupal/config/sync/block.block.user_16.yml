@@ -1,0 +1,25 @@
+uuid: b8d84a93-47ce-40d8-96c9-8d1eb8f6cd1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - bluemarine
+id: user_16
+theme: bluemarine
+region: content
+weight: -10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

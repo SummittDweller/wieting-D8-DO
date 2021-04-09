@@ -1,0 +1,20 @@
+uuid: 5c51b950-8c47-415e-be02-6d71bb49189c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_reminders_pending
+field_name: field_reminders_pending
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

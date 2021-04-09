@@ -1,0 +1,13 @@
+uuid: a079aa3d-1392-4e8d-9dab-8c4bd8778a9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: N0rXHX3WOzgFVmzVr2VwWUzef84sS2XQ1BJsRN77QfA
+id: assign_manager_to_performance
+label: 'Assign the ACTIVE volunteer as MANAGER of selected performance(s)'
+type: node
+plugin: assign_manager_to_performance
+configuration: {  }

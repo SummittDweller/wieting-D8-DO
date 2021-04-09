@@ -1,0 +1,21 @@
+uuid: 151c9ae2-7b57-43d7-93ad-5f5a7ae79663
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vol_analysis_results
+    - node.type.available_dates
+  module:
+    - text
+id: node.available_dates.field_vol_analysis_results
+field_name: field_vol_analysis_results
+entity_type: node
+bundle: available_dates
+label: 'Volunteer Analysis Results'
+description: 'Results of the most recent volunteer analysis run (see /vol_vbo for details).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,29 @@
+uuid: 665e8a26-78c0-4886-9d69-0c5bfa24cb76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_appears_in_galleries_
+    - media_entity.bundle.local_image
+    - taxonomy.vocabulary.image_galleries
+id: media.local_image.field_appears_in_galleries_
+field_name: field_appears_in_galleries_
+entity_type: media
+bundle: local_image
+label: Galleries
+description: 'Select up to four galleries/taxonomies that this image should appear in.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      image_galleries: image_galleries
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 6f60428f-8b4b-47d8-8694-12d059afa7e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.visibility
+field_name: visibility
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

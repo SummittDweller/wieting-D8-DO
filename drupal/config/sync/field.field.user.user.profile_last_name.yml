@@ -1,0 +1,21 @@
+uuid: 0622a322-1440-4ecc-a1dd-15d7388a211b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_last_name
+  module:
+    - text
+    - user
+id: user.user.profile_last_name
+field_name: profile_last_name
+entity_type: user
+bundle: user
+label: 'Last Name'
+description: '<p>Account holders last name.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

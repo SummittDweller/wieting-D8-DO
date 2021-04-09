@@ -1,0 +1,30 @@
+uuid: 16f73232-0145-44de-8902-308b53dd2b6b
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media
+    - user
+  theme:
+    - wieting_theatre_theme
+id: wieting_theatre_theme_socialsharingblock
+theme: wieting_theatre_theme
+region: footer
+weight: -9
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Social Sharing'
+  provider: social_media
+  label_display: visible
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+      administrator: administrator
+      manager: manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

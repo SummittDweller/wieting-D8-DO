@@ -1,0 +1,22 @@
+uuid: 78c1316f-9298-42d9-b081-39e9f51d05e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_ticket_seller_team
+  module:
+    - user
+id: user.user.field_ticket_seller_team
+field_name: field_ticket_seller_team
+entity_type: user
+bundle: user
+label: 'Ticket Seller Team'
+description: 'This field is automatically filled.  Do NOT override the value unless you know what you are doing.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '!Undefined'
+default_value_callback: ''
+settings: {  }
+field_type: string

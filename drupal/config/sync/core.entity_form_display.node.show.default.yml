@@ -1,0 +1,178 @@
+uuid: c744c86f-5198-4eeb-8617-c626c38fb075
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.show.body
+    - field.field.node.show.comment
+    - field.field.node.show.field_closes
+    - field.field.node.show.field_closing
+    - field.field.node.show.field_format
+    - field.field.node.show.field_imdb
+    - field.field.node.show.field_one_sheet
+    - field.field.node.show.field_opens
+    - field.field.node.show.field_performance_times
+    - field.field.node.show.field_running_time
+    - field.field.node.show.field_short_title
+    - field.field.node.show.field_show_dates
+    - field.field.node.show.field_show_official_site
+    - field.field.node.show.field_show_rating
+    - field.field.node.show.field_studio
+    - field.field.node.show.field_studio_fee
+    - field.field.node.show.field_studio_percent
+    - field.field.node.show.field_synopsis
+    - field.field.node.show.field_synopsis_plain
+    - field.field.node.show.field_type
+    - image.style.movie_poster
+    - node.type.show
+  module:
+    - datetime
+    - image
+    - link
+    - text
+id: node.show.default
+targetEntityType: node
+bundle: show
+mode: default
+content:
+  field_closes:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_format:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_imdb:
+    weight: 13
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_one_sheet:
+    weight: 2
+    settings:
+      preview_image_style: movie_poster
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_opens:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_performance_times:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_running_time:
+    weight: 7
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_short_title:
+    weight: 1
+    settings:
+      size: 20
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_show_official_site:
+    weight: 12
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_show_rating:
+    weight: 11
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_studio:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_studio_fee:
+    weight: 15
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_studio_percent:
+    weight: 16
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_synopsis:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_synopsis_plain:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_type:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  comment: true
+  created: true
+  field_closing: true
+  field_show_dates: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

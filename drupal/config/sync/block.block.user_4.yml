@@ -1,0 +1,25 @@
+uuid: 6154ea4d-7eb5-421d-8de0-2498737f7bed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - deco
+id: user_4
+theme: deco
+region: content
+weight: -10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Volunteer Login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

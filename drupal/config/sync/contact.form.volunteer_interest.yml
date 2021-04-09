@@ -1,0 +1,12 @@
+uuid: eb97fa29-2635-42bf-be39-38aabeb68575
+langcode: en
+status: true
+dependencies: {  }
+id: volunteer_interest
+label: 'Volunteer Interest'
+recipients:
+  - toledowieting@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you for your interest in becoming a Wieting volunteer!   The theatre guild will process your form as quickly as possible, but they are all volunteers too, so please be patient.  Someone from the guild will get back to you soon.  Thanks and take care.'
+redirect: /node

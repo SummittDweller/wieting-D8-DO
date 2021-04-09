@@ -1,0 +1,12 @@
+uuid: d83d0fcf-890e-4b9c-a0c8-f0c46a4cbce6
+langcode: en
+status: true
+dependencies: {  }
+id: general_questions
+label: 'General Questions'
+recipients:
+  - wieting@tamatoledo.org
+reply: 'Your message has been routed to the Wieting Theatre Guild and a representative of the Guild will make every attempt to reply as soon as possible.   Thank you.'
+weight: 0
+message: null
+redirect: null

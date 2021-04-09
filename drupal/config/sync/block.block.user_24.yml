@@ -1,0 +1,25 @@
+uuid: dff6821b-7998-4094-bdbc-db9500eac93f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - wieting_attractions
+id: user_24
+theme: wieting_attractions
+region: content
+weight: -23
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

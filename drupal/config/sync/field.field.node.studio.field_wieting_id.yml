@@ -1,0 +1,19 @@
+uuid: 04a4ff3e-53c5-4460-b0c1-99ef43c9f334
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wieting_id
+    - node.type.studio
+id: node.studio.field_wieting_id
+field_name: field_wieting_id
+entity_type: node
+bundle: studio
+label: 'Wieting ID'
+description: 'The Wieting''s ID number for this studio or distributor.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

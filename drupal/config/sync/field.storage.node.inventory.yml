@@ -1,0 +1,20 @@
+uuid: 23517159-7d9b-4b65-8ef7-fe82b7e51908
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.inventory
+field_name: inventory
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

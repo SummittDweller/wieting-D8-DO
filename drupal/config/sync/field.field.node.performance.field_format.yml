@@ -1,0 +1,23 @@
+uuid: 05de4354-2cdf-4d65-8b87-480a6db85305
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_format
+    - node.type.performance
+  module:
+    - options
+id: node.performance.field_format
+field_name: field_format
+entity_type: node
+bundle: performance
+label: Format
+description: 'Specifies the performance format as 2D, 3D or Not Applicable.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 2D
+default_value_callback: ''
+settings: {  }
+field_type: list_string

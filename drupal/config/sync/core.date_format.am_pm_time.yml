@@ -1,0 +1,8 @@
+uuid: 62061a54-98a0-46ed-b9f7-bde18df8b1e2
+langcode: en
+status: true
+dependencies: {  }
+id: am_pm_time
+label: 'AM/PM Time'
+locked: false
+pattern: 'g A'

@@ -1,0 +1,23 @@
+uuid: e37e767c-7458-455a-9415-50264eccf626
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_format
+    - node.type.show
+  module:
+    - options
+id: node.show.field_format
+field_name: field_format
+entity_type: node
+bundle: show
+label: Format
+description: 'Specifies a show''s default format as 2D, 3D or Not Applicable.'
+required: true
+translatable: true
+default_value:
+  -
+    value: 2D
+default_value_callback: ''
+settings: {  }
+field_type: list_string

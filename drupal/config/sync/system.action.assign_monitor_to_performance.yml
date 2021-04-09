@@ -1,0 +1,13 @@
+uuid: c337f970-7302-48d3-866b-6e894aae73e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: Qp_XSPMOqUx3j7NCZHN8_azZh5MgKHDi3nEJQFLPkf0
+id: assign_monitor_to_performance
+label: 'Assign the ACTIVE volunteer team as MONITORS for selected performance(s)'
+type: node
+plugin: assign_monitor_to_performance
+configuration: {  }

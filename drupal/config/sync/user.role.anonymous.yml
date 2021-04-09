@@ -1,0 +1,49 @@
+uuid: 31c4892e-3e23-48e4-8f82-f135b1e14c18
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'anonymous user'
+weight: 5
+is_admin: false
+permissions:
+  - 'access PDF version'
+  - 'access announcements'
+  - 'access content'
+  - 'access print'
+  - 'access send by email'
+  - 'access site-wide contact form'
+  - 'generate lorem ipsum'
+  - 'search content'
+  - 'send newsletter'
+  - 'subscribe to newsletters'
+  - 'view date repeats'
+  - 'view faq page'
+  - 'view field_background_mp3'
+  - 'view field_concession_gross'
+  - 'view field_date_submitted'
+  - 'view field_ending_ticket'
+  - 'view field_event_date'
+  - 'view field_feature'
+  - 'view field_film'
+  - 'view field_first_name'
+  - 'view field_imdb'
+  - 'view field_passes'
+  - 'view field_performance_datetime'
+  - 'view field_performance_end_time'
+  - 'view field_performance_show'
+  - 'view field_show_official_page'
+  - 'view field_show_official_site'
+  - 'view field_show_performance_type'
+  - 'view field_show_poster'
+  - 'view field_show_rating'
+  - 'view field_starting_ticket'
+  - 'view field_ticket_gross'
+  - 'view field_tickets_sold'
+  - 'view imagecache movie_poster'
+  - 'view media'
+  - 'view original images'
+  - 'view uploaded files'
+  - 'vote on polls'

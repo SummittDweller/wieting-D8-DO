@@ -1,0 +1,20 @@
+uuid: 0c63e032-d8ee-481b-8ef3-a9a96d885ea8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - inf08
+id: system_1
+theme: inf08
+region: content
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

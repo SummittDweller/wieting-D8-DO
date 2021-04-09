@@ -1,0 +1,18 @@
+uuid: 9c231872-80f4-445f-97b8-6b840ad571b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_final_wieting_performance_
+field_name: field_final_wieting_performance_
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 47945f61-5a2e-4124-b48f-6cc5b07a0424
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - mobile_theme
+id: user_11
+theme: mobile_theme
+region: content
+weight: -14
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Volunteer Login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

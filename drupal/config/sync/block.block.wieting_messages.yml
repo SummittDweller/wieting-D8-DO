@@ -1,0 +1,22 @@
+uuid: 8e1c8731-d7da-444e-9406-5855379bfee2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wieting
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: wieting_messages
+theme: wieting
+region: navigation
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

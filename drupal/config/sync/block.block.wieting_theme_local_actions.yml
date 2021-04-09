@@ -1,0 +1,20 @@
+uuid: c82cc916-7bc4-489e-b6fe-9acfc7790424
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wieting_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: wieting_theme_local_actions
+theme: wieting_theme
+region: footer
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

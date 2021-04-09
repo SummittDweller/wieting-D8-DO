@@ -1,0 +1,25 @@
+uuid: 4c6544bb-bd94-4fbd-a8c1-3c401d8dd28a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity_image
+id: local_image
+label: 'Local Image'
+description: 'An image stored locally on the Wieting web server.'
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_image_source
+  gather_exif: true
+field_map:
+  mime: field_mime_type
+  width: field_width
+  height: field_height
+  model: field_camera_model
+  created: field_date_photo_taken
+  iso: field_iso
+  exposure: field_exposure
+  aperture: field_aperture
+  focal_length: field_focal_length

@@ -1,0 +1,18 @@
+uuid: ed701b95-3c8c-4b58-874f-1eafeff6e69e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Gallery Image'
+type: gallery_image
+description: 'A basic gallery image content type.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

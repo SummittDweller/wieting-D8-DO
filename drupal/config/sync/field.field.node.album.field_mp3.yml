@@ -1,0 +1,27 @@
+uuid: 57681126-6878-4525-bd67-43ad7bdd0267
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mp3
+    - node.type.album
+  module:
+    - file
+id: node.album.field_mp3
+field_name: field_mp3
+entity_type: node
+bundle: album
+label: MP3
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'mp3 wav'
+  file_directory: audio
+  description_field: false
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

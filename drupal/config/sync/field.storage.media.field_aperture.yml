@@ -1,0 +1,21 @@
+uuid: 8243c90b-5643-41fd-910f-826764c29a02
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.field_aperture
+field_name: field_aperture
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

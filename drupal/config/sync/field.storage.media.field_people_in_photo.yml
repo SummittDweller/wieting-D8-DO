@@ -1,0 +1,21 @@
+uuid: a134e0b1-bae5-4b00-a727-9b412e4d3391
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.field_people_in_photo
+field_name: field_people_in_photo
+entity_type: media
+type: string
+settings:
+  max_length: 60
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

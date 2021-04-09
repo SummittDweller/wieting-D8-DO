@@ -1,0 +1,25 @@
+uuid: 3eb0e7b9-9d26-4773-b4cf-1b9bacbbcd50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.visibility
+    - node.type.donation
+    - taxonomy.vocabulary.visibility
+id: node.donation.visibility
+field_name: visibility
+entity_type: node
+bundle: donation
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - visibility
+    auto_create: true
+field_type: entity_reference

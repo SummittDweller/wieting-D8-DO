@@ -1,0 +1,25 @@
+uuid: 30751cc2-7841-495e-9937-8d8dcb937b84
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - minnelli
+id: user_13
+theme: minnelli
+region: content
+weight: -10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

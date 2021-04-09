@@ -1,0 +1,81 @@
+definitions:
+  contact__site_page:
+    weight: -50
+    menu_name: main
+    parent: 'menu_link_content:46233491-6558-4243-b717-28cbb7d39a82'
+    expanded: false
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
+  node__add_page:
+    weight: -49
+    menu_name: tools
+    parent: ''
+    enabled: true
+    expanded: false
+  filter__tips_all:
+    weight: -47
+    menu_name: tools
+    parent: ''
+    expanded: false
+    enabled: false
+  node_type_example__description:
+    weight: -46
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+  email_example__description:
+    weight: -45
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+  events_example__description:
+    weight: -44
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+  field_example__description:
+    weight: -43
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+  page_example__description:
+    weight: -42
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: true
+  page_example__simple:
+    enabled: false
+    menu_name: tools
+    parent: page_example.description
+    weight: 0
+    expanded: false
+  plugin_type_example__description:
+    weight: -41
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+  search__view:
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: -48
+  entity__content_entity_example_contact__collection:
+    weight: -40
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

@@ -1,0 +1,21 @@
+uuid: 89067c82-dc4d-4c89-a030-c7d677c3278f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_no_thursdays
+    - node.type.available_dates
+id: node.available_dates.field_available_no_thursdays
+field_name: field_available_no_thursdays
+entity_type: node
+bundle: available_dates
+label: 'Thursday Nights'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

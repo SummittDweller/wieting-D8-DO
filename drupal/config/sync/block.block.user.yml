@@ -1,0 +1,25 @@
+uuid: b04c2a19-9c99-47d5-9ee3-3a5c1752b2d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - garland
+id: user
+theme: garland
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Volunteer Login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

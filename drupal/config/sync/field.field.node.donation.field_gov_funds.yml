@@ -1,0 +1,21 @@
+uuid: 51c04218-61ea-4a60-a739-85e65b77ee51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gov_funds
+    - node.type.donation
+id: node.donation.field_gov_funds
+field_name: field_gov_funds
+entity_type: node
+bundle: donation
+label: 'Government Funds'
+description: 'Check this box if the corresponding funds are from a Government entity.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

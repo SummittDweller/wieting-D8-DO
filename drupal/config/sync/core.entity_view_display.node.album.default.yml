@@ -1,0 +1,60 @@
+uuid: 0bddbf15-977b-487e-bdfd-f333209e2b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.album.body
+    - field.field.node.album.comment
+    - field.field.node.album.field_mp3
+    - field.field.node.album.upload
+    - node.type.album
+  module:
+    - comment
+    - file
+    - text
+    - user
+id: node.album.default
+targetEntityType: node
+bundle: album
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_mp3:
+    label: above
+    weight: -3
+    type: file_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  upload:
+    label: hidden
+    settings: {  }
+    type: file_default
+    weight: 102
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

@@ -1,0 +1,19 @@
+uuid: 982b744d-f6ca-4c6b-ba8c-4b93e15ce0e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.storage.contact_message.field_mailing_address
+id: contact_message.volunteer_interest.field_mailing_address
+field_name: field_mailing_address
+entity_type: contact_message
+bundle: volunteer_interest
+label: 'Mailing Address'
+description: 'Optional.  Please provide your mailing address if you would like to receive information via the US Postal Service.  The Wieting prefers to contact volunteers via email, but on occasion we do send information via the USPS.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,23 @@
+uuid: 540b5da8-e1e0-4815-9555-3f443cb6d2bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_final_wieting_performance_
+    - node.type.performance
+id: node.performance.field_final_wieting_performance_
+field_name: field_final_wieting_performance_
+entity_type: node
+bundle: performance
+label: 'Final Wieting Performance?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes, this is the show''s final Wieting performance'
+  off_label: 'No, this is not the show''s final Wieting performance'
+field_type: boolean

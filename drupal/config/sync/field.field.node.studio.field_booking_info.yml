@@ -1,0 +1,19 @@
+uuid: f6282534-36ff-4a1a-bf4a-e3d74be69e69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_booking_info
+    - node.type.studio
+id: node.studio.field_booking_info
+field_name: field_booking_info
+entity_type: node
+bundle: studio
+label: 'Booking Info'
+description: 'Information related to the process of booking a feature.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,29 @@
+uuid: f8ca5f15-d7fa-43b0-ad73-d045bf797dd3
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - minnelli
+id: user_14
+theme: minnelli
+region: ''
+weight: -12
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/roster*\n/pledges_donations\n/admin/*\n/coming_attractions\n/send_box_office_report/*\n/box_office_reports_list\n/*_vbo"

@@ -1,0 +1,21 @@
+uuid: 15dcbee0-766d-4c7c-a886-7f5f37cadec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_description
+    - media_entity.bundle.local_image
+  module:
+    - text
+id: media.local_image.field_description
+field_name: field_description
+entity_type: media
+bundle: local_image
+label: Description
+description: 'Enter an option description of the image here.  This description will appear to public visitors to the site.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

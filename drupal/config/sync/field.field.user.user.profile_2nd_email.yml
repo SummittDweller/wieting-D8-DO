@@ -1,0 +1,21 @@
+uuid: e8fb7723-06a4-4652-b083-3df045925940
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_2nd_email
+  module:
+    - text
+    - user
+id: user.user.profile_2nd_email
+field_name: profile_2nd_email
+entity_type: user
+bundle: user
+label: 'Secondary E-mail'
+description: '<p>Secondary contact e-mail.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

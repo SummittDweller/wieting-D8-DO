@@ -1,0 +1,21 @@
+uuid: 5e4f8142-9a19-4b12-a7fd-45b76d1b66d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opens
+    - node.type.performance
+  module:
+    - datetime
+id: node.performance.field_opens
+field_name: field_opens
+entity_type: node
+bundle: performance
+label: 'Show Opens (Sort)'
+description: 'This field is automatically populated with the corresponding show''s opening performance date/time.  This field should be used for sorting in the marqueee/one-sheet view of performances.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

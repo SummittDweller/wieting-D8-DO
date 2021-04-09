@@ -1,0 +1,25 @@
+uuid: 36206334-10e2-4a17-bf2c-ad87221280ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_studio_percent
+    - node.type.show
+id: node.show.field_studio_percent
+field_name: field_studio_percent
+entity_type: node
+bundle: show
+label: 'Studio Percentage'
+description: 'Enter the studio''s minimum cut as a percentage for ticket revenue.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 35
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: d4f76387-c1c0-4e63-97ac-f1c6311f557c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volume_name_number
+    - node.type.simplenews_issue
+id: node.simplenews_issue.field_volume_name_number
+field_name: field_volume_name_number
+entity_type: node
+bundle: simplenews_issue
+label: 'Volume Name/Number'
+description: 'Enter this issue''s Volume number or name.  The word "Volume" will be prepended to this number/name automatically.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

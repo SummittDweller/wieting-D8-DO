@@ -1,0 +1,25 @@
+uuid: c750b121-8660-4836-84b4-845e6321d9c6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:9aab088a-5b53-4746-ab1e-20b146f8b3b8'
+  module:
+    - block_content
+  theme:
+    - wieting
+id: alluserroles
+theme: wieting
+region: '-1'
+weight: -10
+provider: null
+plugin: 'block_content:9aab088a-5b53-4746-ab1e-20b146f8b3b8'
+settings:
+  id: 'block_content:9aab088a-5b53-4746-ab1e-20b146f8b3b8'
+  label: 'All User Roles'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

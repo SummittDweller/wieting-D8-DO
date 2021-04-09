@@ -1,0 +1,21 @@
+uuid: d3157e8d-9bae-40d5-bc66-2dad74fe9a1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mailing_address
+    - node.type.studio
+  module:
+    - text
+id: node.studio.field_mailing_address
+field_name: field_mailing_address
+entity_type: node
+bundle: studio
+label: 'Mailing Address'
+description: 'Enter the studio mailing address (for payments) here.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

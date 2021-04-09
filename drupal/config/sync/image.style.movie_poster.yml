@@ -1,0 +1,15 @@
+uuid: c70892e4-83ea-4aea-bff0-662ff94ae1d5
+langcode: en
+status: true
+dependencies: {  }
+name: movie_poster
+label: 'One Sheet - Small (100 x 148)'
+effects:
+  4ec38134-451d-4ece-8871-00ece1480601:
+    uuid: 4ec38134-451d-4ece-8871-00ece1480601
+    id: image_scale
+    weight: 0
+    data:
+      width: 100
+      height: 148
+      upscale: false

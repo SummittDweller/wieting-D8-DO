@@ -1,0 +1,8 @@
+uuid: 005d6589-b2f8-4935-bdb7-6cdc28f7cc7f
+langcode: en
+status: true
+dependencies: {  }
+name: Inventory
+vid: inventory
+description: 'This vocabulary describes characteristics (purpose, location, etc.) of an item in our inventory.  Examples include  "Movie", "Stage", "Operations", "Audio", "Projection", "Computer", "Network", and more. '
+weight: 0

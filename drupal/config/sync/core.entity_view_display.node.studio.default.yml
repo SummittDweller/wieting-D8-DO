@@ -1,0 +1,111 @@
+uuid: c51f61a5-6be3-4fa4-994e-10142e053bdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.studio.body
+    - field.field.node.studio.comment
+    - field.field.node.studio.field_booking_info
+    - field.field.node.studio.field_boxoffice_email
+    - field.field.node.studio.field_boxoffice_fax
+    - field.field.node.studio.field_mailing_address
+    - field.field.node.studio.field_payment_info
+    - field.field.node.studio.field_phone
+    - field.field.node.studio.field_wieting_id
+    - field.field.node.studio.upload
+    - node.type.studio
+  module:
+    - comment
+    - file
+    - telephone
+    - text
+    - user
+id: node.studio.default
+targetEntityType: node
+bundle: studio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 8
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_booking_info:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_boxoffice_email:
+    label: inline
+    weight: 1
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_boxoffice_fax:
+    label: inline
+    weight: 6
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_mailing_address:
+    label: above
+    weight: 2
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_payment_info:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone:
+    weight: 0
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_wieting_id:
+    label: inline
+    weight: 7
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  upload:
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    type: file_default
+    weight: 10
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

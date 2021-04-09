@@ -1,0 +1,20 @@
+uuid: 041bbb41-03a6-452d-909c-a3c73691f616
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_availability_adjustment
+field_name: field_availability_adjustment
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

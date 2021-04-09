@@ -1,0 +1,22 @@
+uuid: 0ab9aa3d-ab25-44db-90a0-bd9edab872d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_monitor_team
+  module:
+    - user
+id: user.user.field_monitor_team
+field_name: field_monitor_team
+entity_type: user
+bundle: user
+label: 'Monitor Team'
+description: 'This field is filled automatically.  Do NOT override this value unless you know what you are doing.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '!Undefined'
+default_value_callback: ''
+settings: {  }
+field_type: string

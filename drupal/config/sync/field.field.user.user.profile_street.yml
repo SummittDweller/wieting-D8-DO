@@ -1,0 +1,21 @@
+uuid: 7f1b7cc8-9841-4d6d-b5e9-2be503987869
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_street
+  module:
+    - text
+    - user
+id: user.user.profile_street
+field_name: profile_street
+entity_type: user
+bundle: user
+label: 'Street Address'
+description: '<p>Street and address number ONLY.&nbsp; For example, the theatre is at 101 South Church Street.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

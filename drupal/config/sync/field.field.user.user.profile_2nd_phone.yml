@@ -1,0 +1,21 @@
+uuid: a8007e9a-2b73-4c23-968a-bc50a49a7efe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_2nd_phone
+  module:
+    - text
+    - user
+id: user.user.profile_2nd_phone
+field_name: profile_2nd_phone
+entity_type: user
+bundle: user
+label: 'Secondary Phone'
+description: '<p>Secondary contact phone number.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,13 @@
+uuid: 0809a052-e2fb-4659-bef7-796178b99203
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: 4cC4XdOS0F6CXSHHjWebgAII28uNZPDP8zM1GdcDwZY
+id: update_volunteer
+label: 'Update volunteer info'
+type: user
+plugin: update_volunteer
+configuration: {  }

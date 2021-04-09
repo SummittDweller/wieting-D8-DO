@@ -1,0 +1,22 @@
+uuid: a03d6c7e-a624-4f56-abc9-a23d0f7f1a12
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.donation
+id: node.donation.promote
+field_name: promote
+entity_type: node
+bundle: donation
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: 48c3abcb-9802-49f3-b18e-b0814e0c4f1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.active_announcements
+  module:
+    - system
+    - views
+  theme:
+    - wieting_theatre_theme
+id: wieting_theatre_theme_views_block__active_announcements_block_1
+theme: wieting_theatre_theme
+region: navigation_collapsible
+weight: -10
+provider: null
+plugin: 'views_block:active_announcements-block_1'
+settings:
+  id: 'views_block:active_announcements-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

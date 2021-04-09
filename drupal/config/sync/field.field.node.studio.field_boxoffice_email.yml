@@ -1,0 +1,19 @@
+uuid: b327c8d6-2f56-424f-a9b5-4118022e12a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boxoffice_email
+    - node.type.studio
+id: node.studio.field_boxoffice_email
+field_name: field_boxoffice_email
+entity_type: node
+bundle: studio
+label: 'Box Office E-mail'
+description: 'E-mail address where box office reports can be sent.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

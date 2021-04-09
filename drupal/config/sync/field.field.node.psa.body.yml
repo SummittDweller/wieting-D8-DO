@@ -1,0 +1,23 @@
+uuid: 0fd1706a-5437-4350-8e52-34a4baaa32bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.psa
+  module:
+    - text
+id: node.psa.body
+field_name: body
+entity_type: node
+bundle: psa
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

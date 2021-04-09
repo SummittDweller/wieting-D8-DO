@@ -1,0 +1,101 @@
+uuid: 9987e134-4175-4f12-b685-08987d796ea4
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.show.body
+    - field.field.node.show.comment
+    - field.field.node.show.field_closes
+    - field.field.node.show.field_closing
+    - field.field.node.show.field_format
+    - field.field.node.show.field_imdb
+    - field.field.node.show.field_one_sheet
+    - field.field.node.show.field_opens
+    - field.field.node.show.field_performance_times
+    - field.field.node.show.field_running_time
+    - field.field.node.show.field_short_title
+    - field.field.node.show.field_show_dates
+    - field.field.node.show.field_show_official_site
+    - field.field.node.show.field_show_rating
+    - field.field.node.show.field_studio
+    - field.field.node.show.field_studio_fee
+    - field.field.node.show.field_studio_percent
+    - field.field.node.show.field_synopsis
+    - field.field.node.show.field_synopsis_plain
+    - field.field.node.show.field_type
+    - node.type.show
+  module:
+    - link
+    - user
+id: node.show.print
+targetEntityType: node
+bundle: show
+mode: print
+content:
+  field_imdb:
+    label: hidden
+    weight: 0
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    region: content
+  field_running_time:
+    label: inline
+    weight: 4
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_studio_fee:
+    label: inline
+    weight: 6
+    type: number_decimal
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_studio_percent:
+    label: inline
+    weight: 7
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_closes: true
+  field_closing: true
+  field_format: true
+  field_one_sheet: true
+  field_opens: true
+  field_performance_times: true
+  field_short_title: true
+  field_show_dates: true
+  field_show_official_site: true
+  field_show_rating: true
+  field_studio: true
+  field_synopsis: true
+  field_synopsis_plain: true
+  field_type: true

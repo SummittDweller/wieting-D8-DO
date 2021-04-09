@@ -1,0 +1,13 @@
+uuid: a7317c7e-bc32-4822-a5a4-07c5f6af6ed1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Remove post from front page'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

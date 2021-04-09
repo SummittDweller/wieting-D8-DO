@@ -1,0 +1,64 @@
+uuid: 3f9637b4-73ec-4d0c-b74f-70a9ae9becd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.page.body
+    - field.field.node.page.comment
+    - field.field.node.page.upload
+    - field.field.node.page.visibility
+    - node.type.page
+  module:
+    - comment
+    - file
+    - text
+    - user
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 0
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  upload:
+    label: above
+    settings:
+      use_description_as_link_text: true
+    type: file_table
+    weight: 3
+    third_party_settings: {  }
+    region: content
+  visibility:
+    label: hidden
+    type: entity_reference_label
+    weight: 1
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

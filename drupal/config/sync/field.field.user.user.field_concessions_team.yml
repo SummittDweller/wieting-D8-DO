@@ -1,0 +1,22 @@
+uuid: fd5f9262-85da-4fbd-be85-05307d6605f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_concessions_team
+  module:
+    - user
+id: user.user.field_concessions_team
+field_name: field_concessions_team
+entity_type: user
+bundle: user
+label: 'Concessions Team'
+description: 'This field is filled automatically.  Do NOT override this value unless you know what you are doing.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '!Undefined'
+default_value_callback: ''
+settings: {  }
+field_type: string

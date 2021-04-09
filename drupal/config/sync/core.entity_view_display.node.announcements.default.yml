@@ -1,0 +1,31 @@
+uuid: 69fc90d5-7028-48e5-9b12-3dd4957dc50d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.announcements.body
+    - node.type.announcements
+  module:
+    - text
+    - user
+id: node.announcements.default
+targetEntityType: node
+bundle: announcements
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

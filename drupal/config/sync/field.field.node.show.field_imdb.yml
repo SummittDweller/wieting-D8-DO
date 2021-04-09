@@ -1,0 +1,23 @@
+uuid: f0dab5f9-1d63-4e86-b3ad-92d0c6797d07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imdb
+    - node.type.show
+  module:
+    - link
+id: node.show.field_imdb
+field_name: field_imdb
+entity_type: node
+bundle: show
+label: IMDB
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: null
+  link_type: 17
+field_type: link

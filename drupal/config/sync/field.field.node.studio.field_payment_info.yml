@@ -1,0 +1,19 @@
+uuid: 9529583b-80f9-4a4b-922d-2c771a8c4b25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_payment_info
+    - node.type.studio
+id: node.studio.field_payment_info
+field_name: field_payment_info
+entity_type: node
+bundle: studio
+label: 'Payment Info'
+description: 'Information related to feature invoices and payment process.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

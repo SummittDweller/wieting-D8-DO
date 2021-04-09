@@ -1,0 +1,22 @@
+uuid: f177fb15-037a-41bd-af21-93ec0161b620
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_schedule_by_mail
+  module:
+    - user
+id: user.user.profile_schedule_by_mail
+field_name: profile_schedule_by_mail
+entity_type: user
+bundle: user
+label: 'Send Schedule by US Mail'
+description: '<p>Check this box ONLY&nbsp;if you wish to recieve the Volunteer Schedule in the mail (paper copy).&nbsp; Families should request only one copy per household so please do NOT check this box for more than one member of your family. &nbsp;Thank you.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

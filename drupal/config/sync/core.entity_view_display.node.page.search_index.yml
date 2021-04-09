@@ -1,0 +1,31 @@
+uuid: bc3722e7-27dc-4edd-b3a6-abca998d6783
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.page.body
+    - field.field.node.page.comment
+    - field.field.node.page.upload
+    - field.field.node.page.visibility
+    - node.type.page
+  module:
+    - user
+id: node.page.search_index
+targetEntityType: node
+bundle: page
+mode: search_index
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true
+  visibility: true

@@ -1,0 +1,30 @@
+uuid: aa96a193-3a0a-4048-8843-165402e45dca
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.active_announcements
+  module:
+    - system
+    - views
+  theme:
+    - wieting_theme
+id: views_block__active_announcements_block_1
+theme: wieting_theme
+region: navigation_collapsible
+weight: -10
+provider: null
+plugin: 'views_block:active_announcements-block_1'
+settings:
+  id: 'views_block:active_announcements-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

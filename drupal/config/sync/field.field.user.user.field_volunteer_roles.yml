@@ -1,0 +1,29 @@
+uuid: 71ec18a8-38ec-4fea-b37a-e1de3d71a8c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_volunteer_roles
+    - taxonomy.vocabulary.volunteer_roles
+  module:
+    - user
+id: user.user.field_volunteer_roles
+field_name: field_volunteer_roles
+entity_type: user
+bundle: user
+label: 'Volunteer Roles'
+description: 'Select the volunteer roles that this User can fill.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      volunteer_roles: volunteer_roles
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

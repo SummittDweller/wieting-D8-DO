@@ -1,0 +1,11 @@
+transport: smtp
+smtp_host: smtp.gmail.com
+smtp_port: 465
+smtp_encryption: ssl
+smtp_username: toledowieting@gmail.com
+smtp_password: 3!!@1912
+sendmail_path: /usr/sbin/sendmail
+sendmail_mode: bs
+spool_directory: ''
+_core:
+  default_config_hash: 0SeYZshzgoabDrbz-junYqeQOQ9BypPv2gaFcnqKy0M

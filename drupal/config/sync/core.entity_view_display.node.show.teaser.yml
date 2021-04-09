@@ -1,0 +1,135 @@
+uuid: f339b7af-1bf8-4c16-9cc6-558fe54abac1
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.show.body
+    - field.field.node.show.comment
+    - field.field.node.show.field_closes
+    - field.field.node.show.field_closing
+    - field.field.node.show.field_format
+    - field.field.node.show.field_imdb
+    - field.field.node.show.field_one_sheet
+    - field.field.node.show.field_opens
+    - field.field.node.show.field_performance_times
+    - field.field.node.show.field_running_time
+    - field.field.node.show.field_short_title
+    - field.field.node.show.field_show_dates
+    - field.field.node.show.field_show_official_site
+    - field.field.node.show.field_show_rating
+    - field.field.node.show.field_studio
+    - field.field.node.show.field_studio_fee
+    - field.field.node.show.field_studio_percent
+    - field.field.node.show.field_synopsis
+    - field.field.node.show.field_synopsis_plain
+    - field.field.node.show.field_type
+    - node.type.show
+  module:
+    - link
+    - text
+    - user
+id: node.show.teaser
+targetEntityType: node
+bundle: show
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_imdb:
+    label: hidden
+    weight: 0
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    region: content
+  field_performance_datetime:
+    label: inline
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_running_time:
+    label: inline
+    weight: 4
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_show_official_site:
+    label: above
+    weight: 1
+    type: link
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    region: content
+  field_show_rating:
+    label: inline
+    weight: 3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_studio_fee:
+    label: inline
+    weight: 6
+    type: number_decimal
+    settings:
+      scale: 2
+      decimal_separator: .
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_studio_percent:
+    label: inline
+    weight: 7
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_closes: true
+  field_closing: true
+  field_format: true
+  field_one_sheet: true
+  field_opens: true
+  field_performance_times: true
+  field_short_title: true
+  field_show_dates: true
+  field_studio: true
+  field_synopsis: true
+  field_synopsis_plain: true
+  field_type: true

@@ -1,0 +1,23 @@
+uuid: 23005a08-0ac1-424a-9c0e-3fc051a2c78a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_score
+    - node.type.available_dates
+id: node.available_dates.field_available_score
+field_name: field_available_score
+entity_type: node
+bundle: available_dates
+label: 'Availability Score'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: -40
+  max: 40
+  prefix: ''
+  suffix: ''
+field_type: integer

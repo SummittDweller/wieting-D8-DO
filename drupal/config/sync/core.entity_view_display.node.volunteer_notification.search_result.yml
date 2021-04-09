@@ -1,0 +1,36 @@
+uuid: 3d982835-0b88-44d5-8972-debab15e30b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.volunteer_notification.body
+    - field.field.node.volunteer_notification.comment
+    - node.type.volunteer_notification
+  module:
+    - user
+id: node.volunteer_notification.search_result
+targetEntityType: node
+bundle: volunteer_notification
+mode: search_result
+content:
+  field_dispatch_date:
+    label: above
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

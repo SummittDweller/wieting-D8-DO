@@ -1,0 +1,22 @@
+uuid: bf637f61-c964-4153-81ea-510501912a29
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.performance
+id: node.performance.sticky
+field_name: sticky
+entity_type: node
+bundle: performance
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

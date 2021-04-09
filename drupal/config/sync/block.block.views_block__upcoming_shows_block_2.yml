@@ -1,0 +1,30 @@
+uuid: d7b16cbd-9c0b-40d4-8c0d-3914a3c850e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_shows
+  module:
+    - system
+    - views
+  theme:
+    - wieting
+id: views_block__upcoming_shows_block_2
+theme: wieting
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:upcoming_shows-block_2'
+settings:
+  id: 'views_block:upcoming_shows-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

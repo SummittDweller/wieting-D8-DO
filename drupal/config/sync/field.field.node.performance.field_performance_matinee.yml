@@ -1,0 +1,23 @@
+uuid: da97635a-bd22-42e2-aa65-c94a6b450f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_performance_matinee
+    - node.type.performance
+id: node.performance.field_performance_matinee
+field_name: field_performance_matinee
+entity_type: node
+bundle: performance
+label: 'Matinee?'
+description: 'Check this box only if this is a matinee performance.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'This is a matinee performance.'
+  off_label: 'This is NOT a matinee performance.'
+field_type: boolean

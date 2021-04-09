@@ -1,0 +1,30 @@
+uuid: 0529c83e-f5e4-4d70-b7ba-ff11b1277032
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - wieting_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: wieting_theme_branding
+theme: wieting_theme
+region: navigation
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: true
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

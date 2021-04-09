@@ -1,0 +1,30 @@
+uuid: b3eb364f-60ac-4ef8-9589-862c0339a792
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+  module:
+    - block_content
+    - system
+  theme:
+    - wieting
+id: block_16
+theme: wieting
+region: '-1'
+weight: -11
+provider: null
+plugin: 'block_content:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+settings:
+  id: 'block_content:e3a4874d-7e0a-4a62-b21e-7e3b5c98e32f'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

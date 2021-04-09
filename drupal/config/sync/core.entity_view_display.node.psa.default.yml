@@ -1,0 +1,60 @@
+uuid: 0324ebb4-7149-4775-90d2-75ebd90ea6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.psa.body
+    - field.field.node.psa.comment
+    - field.field.node.psa.upload
+    - node.type.psa
+  module:
+    - comment
+    - file
+    - text
+    - user
+id: node.psa.default
+targetEntityType: node
+bundle: psa
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    label: hidden
+    weight: -3
+    type: datetime_default
+    settings:
+      format_type: fallback
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  upload:
+    label: hidden
+    settings: {  }
+    type: file_default
+    weight: 102
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

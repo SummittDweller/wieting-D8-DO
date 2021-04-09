@@ -1,0 +1,25 @@
+uuid: 7b975f93-6c35-42de-b893-da76c055f149
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - wieting_theatre
+id: user_19
+theme: wieting_theatre
+region: content
+weight: -22
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

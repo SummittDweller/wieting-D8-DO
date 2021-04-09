@@ -1,0 +1,19 @@
+uuid: c78e33bf-e3c3-4115-aa9a-c584b94f980e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_monitors
+    - node.type.performance
+id: node.performance.field_special_monitors
+field_name: field_special_monitors
+entity_type: node
+bundle: performance
+label: 'Special Monitors'
+description: 'This field, when populated, should be displayed as the monitors volunteer team in place of the primary volunteer and their partner.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

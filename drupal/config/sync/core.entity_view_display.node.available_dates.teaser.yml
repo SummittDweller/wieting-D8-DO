@@ -1,0 +1,110 @@
+uuid: 5c879157-4e37-4930-8509-f79e3d4568c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.available_dates.comment
+    - field.field.node.available_dates.field_available_no_fridays
+    - field.field.node.available_dates.field_available_no_sat_matinee
+    - field.field.node.available_dates.field_available_no_saturdays
+    - field.field.node.available_dates.field_available_no_sun_matinee
+    - field.field.node.available_dates.field_available_no_sundays
+    - field.field.node.available_dates.field_available_no_thursdays
+    - field.field.node.available_dates.field_available_score
+    - field.field.node.available_dates.field_vol_analysis_results
+    - node.type.available_dates
+  module:
+    - text
+    - user
+id: node.available_dates.teaser
+targetEntityType: node
+bundle: available_dates
+mode: teaser
+content:
+  field_available_date:
+    label: inline
+    weight: 4
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_available_no_fridays:
+    label: inline
+    weight: -2
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_no_sat_matinee:
+    label: inline
+    weight: -1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_no_saturdays:
+    label: inline
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_no_sun_matinee:
+    label: inline
+    weight: 1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_no_sundays:
+    label: inline
+    weight: 2
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_no_thursdays:
+    label: inline
+    weight: -3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available_not:
+    label: above
+    weight: 3
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_available_score:
+    label: inline
+    weight: 5
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_vol_analysis_results:
+    label: above
+    weight: 6
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

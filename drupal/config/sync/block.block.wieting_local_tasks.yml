@@ -1,0 +1,22 @@
+uuid: 881ea037-bfb0-4290-86ee-44db812efce2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wieting
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: wieting_local_tasks
+theme: wieting
+region: footer
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

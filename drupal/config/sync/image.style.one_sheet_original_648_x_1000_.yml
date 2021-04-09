@@ -1,0 +1,14 @@
+uuid: 2e165234-9d28-4355-9c78-938e46446919
+langcode: en
+status: true
+dependencies: {  }
+name: one_sheet_original_648_x_1000_
+label: 'One Sheet Original (648 x 1000)'
+effects:
+  b8f3f5bb-0ec0-4220-b826-4810a3fd4ac9:
+    uuid: b8f3f5bb-0ec0-4220-b826-4810a3fd4ac9
+    id: image_resize
+    weight: 1
+    data:
+      width: 648
+      height: 1000

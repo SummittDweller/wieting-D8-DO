@@ -1,0 +1,25 @@
+uuid: f0063a36-085f-4e0c-ae8a-38569984a3b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reminders_pending
+    - node.type.performance
+id: node.performance.field_reminders_pending
+field_name: field_reminders_pending
+entity_type: node
+bundle: performance
+label: Reminders_Pending
+description: 'A count of pending volunteer reminders for this performance. '
+required: true
+translatable: false
+default_value:
+  -
+    value: 2
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: 78998c44-877f-4526-a3ef-ad82337d24b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boxoffice_fax
+    - node.type.studio
+id: node.studio.field_boxoffice_fax
+field_name: field_boxoffice_fax
+entity_type: node
+bundle: studio
+label: 'Box Office Fax'
+description: 'Fax number for box office reports.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

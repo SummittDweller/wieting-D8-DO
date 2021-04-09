@@ -1,0 +1,25 @@
+uuid: 7033e820-1267-44ff-be42-64b5e45556de
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - wieting_theme
+id: primarylinks
+theme: wieting_theme
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: 'Primary links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

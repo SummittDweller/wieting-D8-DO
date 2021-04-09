@@ -1,0 +1,89 @@
+uuid: 5fd4508f-b018-4825-86dd-8185f67af446
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.inventory.asset_type
+    - field.field.node.inventory.body
+    - field.field.node.inventory.comment
+    - field.field.node.inventory.field_how_many
+    - field.field.node.inventory.field_value
+    - field.field.node.inventory.field_where
+    - field.field.node.inventory.field_who
+    - field.field.node.inventory.field_why
+    - field.field.node.inventory.inventory
+    - field.field.node.inventory.upload
+    - node.type.inventory
+  module:
+    - text
+    - user
+id: node.inventory.search_index
+targetEntityType: node
+bundle: inventory
+mode: search_index
+content:
+  field_how_many:
+    label: inline
+    weight: 42
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_value:
+    label: inline
+    weight: 43
+    type: number_decimal
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_when:
+    label: inline
+    weight: 39
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_where:
+    label: inline
+    weight: 40
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_who:
+    label: inline
+    weight: 37
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_why:
+    label: inline
+    weight: 41
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  asset_type: true
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  inventory: true
+  upload: true

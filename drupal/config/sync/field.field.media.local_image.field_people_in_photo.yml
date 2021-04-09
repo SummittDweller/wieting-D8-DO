@@ -1,0 +1,19 @@
+uuid: 689ae96c-7190-487e-b83a-bf700db71a86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_people_in_photo
+    - media_entity.bundle.local_image
+id: media.local_image.field_people_in_photo
+field_name: field_people_in_photo
+entity_type: media
+bundle: local_image
+label: 'People In Photo'
+description: 'Enter the names of people who appear in the photo.  Note that this information will NOT be visible to the public unless permission is expressly granted. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

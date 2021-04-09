@@ -1,0 +1,11 @@
+uuid: a6e69438-ac40-4869-ad13-caa92eb5476f
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: '<p>Any Wieting-related event that is not considered a &quot;performance&quot;.</p>'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

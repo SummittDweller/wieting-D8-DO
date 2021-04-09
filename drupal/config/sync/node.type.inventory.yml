@@ -1,0 +1,11 @@
+uuid: 01669e6a-8df8-485e-9c97-ec012949f934
+langcode: en
+status: true
+dependencies: {  }
+name: 'Inventory Item'
+type: inventory
+description: 'Any durable inventory item(s).'
+help: 'Identifiers should be short but descriptive and should MATCH any labels placed on the item(s).  Labels for multiple items should end with a dash followed by a serial number, like "XLR 25ft - 1", "XLR 25ft - 2", etc.'
+new_revision: false
+preview_mode: 1
+display_submitted: false

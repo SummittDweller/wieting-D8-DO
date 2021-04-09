@@ -1,0 +1,25 @@
+uuid: acf60bd6-6dfd-480c-ac97-c520fc47526a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - mobile
+id: user_7
+theme: mobile
+region: content
+weight: -11
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Volunteer Login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

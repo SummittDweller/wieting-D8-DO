@@ -1,0 +1,21 @@
+uuid: 97f76fdf-edcc-41db-828b-52dc5e517dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_phone
+  module:
+    - text
+    - user
+id: user.user.profile_phone
+field_name: profile_phone
+entity_type: user
+bundle: user
+label: Phone
+description: '<p>Primary contact phone number.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,27 @@
+uuid: 1cc1265c-0e8e-4d36-b5cf-a4158d3ab928
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.webform
+  module:
+    - file
+id: node.webform.upload
+field_name: upload
+entity_type: node
+bundle: webform
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  description_field: true
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx xlsm pdf ppt pps odt ods odp mp3'
+  max_filesize: 32MB
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,66 @@
+uuid: 87bbdef9-dbc1-4ef9-9109-35e4542d9c58
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.performance.comment_no_subject
+    - field.field.node.performance.field_availability_scores
+    - field.field.node.performance.field_blocked_volunteers
+    - field.field.node.performance.field_final_wieting_performance_
+    - field.field.node.performance.field_format
+    - field.field.node.performance.field_opens
+    - field.field.node.performance.field_performance_date
+    - field.field.node.performance.field_performance_ends
+    - field.field.node.performance.field_performance_matinee
+    - field.field.node.performance.field_performance_times
+    - field.field.node.performance.field_reminders_pending
+    - field.field.node.performance.field_show
+    - field.field.node.performance.field_special_concessions
+    - field.field.node.performance.field_special_monitors
+    - field.field.node.performance.field_volunteer_concessions
+    - field.field.node.performance.field_volunteer_manager
+    - field.field.node.performance.field_volunteer_monitor
+    - field.field.node.performance.field_volunteer_ticket_seller
+    - node.type.performance
+  module:
+    - text
+    - user
+id: node.performance.print
+targetEntityType: node
+bundle: performance
+mode: print
+content:
+  field_performance_matinee:
+    label: inline
+    weight: 17
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment_no_subject: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_availability_scores: true
+  field_blocked_volunteers: true
+  field_final_wieting_performance_: true
+  field_format: true
+  field_opens: true
+  field_performance_date: true
+  field_performance_ends: true
+  field_performance_times: true
+  field_reminders_pending: true
+  field_show: true
+  field_special_concessions: true
+  field_special_monitors: true
+  field_volunteer_concessions: true
+  field_volunteer_manager: true
+  field_volunteer_monitor: true
+  field_volunteer_ticket_seller: true

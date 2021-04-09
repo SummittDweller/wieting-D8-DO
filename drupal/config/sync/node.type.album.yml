@@ -1,0 +1,11 @@
+uuid: b4337d6f-347a-43e7-ace6-e64200bdd6bd
+langcode: en
+status: true
+dependencies: {  }
+name: Album
+type: album
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

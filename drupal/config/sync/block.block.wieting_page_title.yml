@@ -1,0 +1,20 @@
+uuid: 212a7369-b71c-4808-bfba-a124bbc162c2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wieting
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: wieting_page_title
+theme: wieting
+region: content
+weight: -11
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

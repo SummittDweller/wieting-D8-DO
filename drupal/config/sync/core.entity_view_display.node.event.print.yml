@@ -1,0 +1,48 @@
+uuid: d2c61c75-2ad8-409b-9df9-a55bacb68816
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.event.body
+    - field.field.node.event.comment
+    - field.field.node.event.field_wieting_related
+    - field.field.node.event.upload
+    - node.type.event
+  module:
+    - user
+id: node.event.print
+targetEntityType: node
+bundle: event
+mode: print
+content:
+  field_event_date:
+    label: hidden
+    weight: -4
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_wieting_related:
+    label: hidden
+    weight: -3
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  upload: true

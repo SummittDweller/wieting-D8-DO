@@ -1,0 +1,25 @@
+uuid: 428d406a-7179-4c5f-a06c-b5bedc41cec0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.visibility
+    - node.type.page
+    - taxonomy.vocabulary.visibility
+id: node.page.visibility
+field_name: visibility
+entity_type: node
+bundle: page
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - visibility
+    auto_create: true
+field_type: entity_reference

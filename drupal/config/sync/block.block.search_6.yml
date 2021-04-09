@@ -1,0 +1,28 @@
+uuid: f6bb3cfc-8f41-416d-91fd-84619a8b691a
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - wieting
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: search_6
+theme: wieting
+region: ''
+weight: -11
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: ''
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

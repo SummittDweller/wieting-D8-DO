@@ -1,0 +1,25 @@
+uuid: 7a39d8c2-9660-4ed2-b58c-c154236cd25f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.asset_type
+    - node.type.inventory
+    - taxonomy.vocabulary.asset_type
+id: node.inventory.asset_type
+field_name: asset_type
+entity_type: node
+bundle: inventory
+label: 'Asset Type'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - asset_type
+    auto_create: true
+field_type: entity_reference

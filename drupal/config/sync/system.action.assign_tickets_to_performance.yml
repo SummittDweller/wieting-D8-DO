@@ -1,0 +1,13 @@
+uuid: 6a705c08-60e7-47c9-a022-b3d5954b072a
+langcode: en
+status: true
+dependencies:
+  module:
+    - wieting
+_core:
+  default_config_hash: XUpKcsIglzVgzyedUb4pSV2GuhlN4zK9tGigrRYzmn0
+id: assign_tickets_to_performance
+label: 'Assign the ACTIVE volunteer as TICKET SELLER for selected performance(s)'
+type: node
+plugin: assign_tickets_to_performance
+configuration: {  }

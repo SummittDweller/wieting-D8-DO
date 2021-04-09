@@ -1,0 +1,30 @@
+uuid: a17a11b1-f83a-457e-896c-7c09081e286f
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - media_entity
+id: media.field_image_source
+field_name: field_image_source
+entity_type: media
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: 63fe9ed8-e7c5-4b40-931e-216612661f63
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Type'
+vid: event_type
+description: 'Event types include movie, meeting, play, concert, wedding, etc.'
+weight: 0

@@ -1,0 +1,15 @@
+uuid: 9dc5cbe0-85a6-49c2-bdb8-391c8886a790
+langcode: en
+status: true
+dependencies: {  }
+name: one_sheet_large_320_px_wide_
+label: 'One Sheet Large (320 x 475)'
+effects:
+  126fd6cf-f705-4220-b6ca-68abb513f283:
+    uuid: 126fd6cf-f705-4220-b6ca-68abb513f283
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: 475
+      upscale: false

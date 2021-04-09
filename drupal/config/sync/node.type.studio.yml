@@ -1,0 +1,11 @@
+uuid: 00d55d3b-7558-405d-965c-59b0d9f44b6a
+langcode: en
+status: true
+dependencies: {  }
+name: Studio
+type: studio
+description: 'Contact information and more, for movie studios and distributors.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

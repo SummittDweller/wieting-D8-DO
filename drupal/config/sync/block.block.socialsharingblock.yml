@@ -1,0 +1,30 @@
+uuid: b4c80afd-9243-4f79-82c6-38fdb96a9169
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media
+    - user
+  theme:
+    - wieting_theme
+id: socialsharingblock
+theme: wieting_theme
+region: footer
+weight: -10
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Social Sharing'
+  provider: social_media
+  label_display: visible
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+      administrator: administrator
+      manager: manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,22 @@
+uuid: 439a5dab-a7c7-45c2-81e4-b534ad5ed20b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.inventory
+id: node.inventory.status
+field_name: status
+entity_type: node
+bundle: inventory
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

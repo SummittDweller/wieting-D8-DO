@@ -1,0 +1,21 @@
+uuid: c7ce0234-5d0c-435e-9264-75ab2f81b721
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_closes
+    - node.type.show
+  module:
+    - datetime
+id: node.show.field_closes
+field_name: field_closes
+entity_type: node
+bundle: show
+label: Closes
+description: 'The date and time when the show closes.  This is a CALCULATED field.  DO NOT populate this field manually. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

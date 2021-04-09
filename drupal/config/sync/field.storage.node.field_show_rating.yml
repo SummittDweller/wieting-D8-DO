@@ -1,0 +1,42 @@
+uuid: ea0e4403-56c3-4736-b067-468e6c0e840c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_show_rating
+field_name: field_show_rating
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: G
+      label: G
+    -
+      value: PG
+      label: PG
+    -
+      value: PG-13
+      label: PG-13
+    -
+      value: R
+      label: R
+    -
+      value: NC-17
+      label: NC-17
+    -
+      value: N/A
+      label: 'Not Rated'
+    -
+      value: Live
+      label: 'Live On-Stage'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 23cde267-9c34-423d-af89-cd7f0b161be5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_team_name
+  module:
+    - user
+id: user.user.field_team_name
+field_name: field_team_name
+entity_type: user
+bundle: user
+label: 'Team Name'
+description: 'This is the text that will appear for working pairs of volunteers in concessions and as monitors.  For example, "Larry F. / Ray M." frequently work as a team to monitor.  A Team Name should be assigned ONLY to the primary partner, never to both!'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

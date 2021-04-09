@@ -1,0 +1,72 @@
+uuid: f0b3923b-bb2f-47cf-844b-08521bd51c8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_availability_adjustment
+    - field.field.user.user.field_available
+    - field.field.user.user.field_available_days_times
+    - field.field.user.user.field_concessions_team
+    - field.field.user.user.field_has_partner
+    - field.field.user.user.field_manager_team
+    - field.field.user.user.field_monitor_team
+    - field.field.user.user.field_team_name
+    - field.field.user.user.field_ticket_seller_team
+    - field.field.user.user.field_volunteer_roles
+    - field.field.user.user.profile_2nd_email
+    - field.field.user.user.profile_2nd_phone
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_email
+    - field.field.user.user.profile_first_name
+    - field.field.user.user.profile_last_name
+    - field.field.user.user.profile_mailing_name
+    - field.field.user.user.profile_phone
+    - field.field.user.user.profile_schedule_by_mail
+    - field.field.user.user.profile_street
+  module:
+    - user
+_core:
+  default_config_hash: C3k_McOy8bL8rTnIjspy5OfFdgqV1z6OdGZaI-tO5eM
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  masquerade:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_availability:
+    weight: 10
+    region: content
+  profile_volunteer:
+    weight: 10
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_availability_adjustment: true
+  field_available: true
+  field_available_days_times: true
+  field_concessions_team: true
+  field_has_partner: true
+  field_manager_team: true
+  field_monitor_team: true
+  field_team_name: true
+  field_ticket_seller_team: true
+  field_volunteer_roles: true
+  member_for: true
+  profile_2nd_email: true
+  profile_2nd_phone: true
+  profile_city: true
+  profile_email: true
+  profile_first_name: true
+  profile_last_name: true
+  profile_mailing_name: true
+  profile_phone: true
+  profile_schedule_by_mail: true
+  profile_street: true
+  simplenews: true

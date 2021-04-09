@@ -1,0 +1,19 @@
+uuid: 69d54539-b850-407b-82ec-d9da57eefa31
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.volunteer_interest
+    - field.storage.contact_message.field_name_s_
+id: contact_message.volunteer_interest.field_name_s_
+field_name: field_name_s_
+entity_type: contact_message
+bundle: volunteer_interest
+label: Name(s)
+description: 'Please enter your full name in the space provided.  We also welcome couples and families who wish to work as a team so please feel free to list your names separately (space for up to 5 names is permitted) or in the form "John and Jane Doe" if you like.  The FIRST name listed should be the primary contact for all.  This is the person who will receive notifications and invitations from the Wieting.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

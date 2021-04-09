@@ -1,0 +1,15 @@
+uuid: 9a0a6fcb-c417-4368-89de-089c035a656e
+langcode: en
+status: true
+dependencies: {  }
+name: one_sheet_medium_125_px_wide_
+label: 'One Sheet - Medium (125 px wide)'
+effects:
+  21f43b99-46c6-47f1-9baf-74b6876c1e58:
+    uuid: 21f43b99-46c6-47f1-9baf-74b6876c1e58
+    id: image_scale
+    weight: 1
+    data:
+      width: 125
+      height: null
+      upscale: false

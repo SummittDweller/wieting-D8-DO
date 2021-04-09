@@ -1,0 +1,36 @@
+uuid: 95af9ab0-4ede-4119-aa65-70192e3b19b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volunteer_monitor
+    - node.type.performance
+id: node.performance.field_volunteer_monitor
+field_name: field_volunteer_monitor
+entity_type: node
+bundle: performance
+label: 'Volunteer Monitor'
+description: 'Reference to the volunteers assigned to monitor this Performance.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        manager: manager
+        volunteer: volunteer
+        administrator: '0'
+        editor: '0'
+        student: '0'
+        finance: '0'
+    target_bundles: null
+    sort:
+      field: profile_last_name.value
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

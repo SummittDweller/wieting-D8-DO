@@ -1,0 +1,23 @@
+uuid: 176ef8de-eda8-4a18-a5c6-321b34b54af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.announcements
+  module:
+    - text
+id: node.announcements.body
+field_name: body
+entity_type: node
+bundle: announcements
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

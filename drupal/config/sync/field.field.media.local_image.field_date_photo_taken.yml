@@ -1,0 +1,19 @@
+uuid: 3822d192-6611-4e59-a4a0-eeae8a8dbc11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_date_photo_taken
+    - media_entity.bundle.local_image
+id: media.local_image.field_date_photo_taken
+field_name: field_date_photo_taken
+entity_type: media
+bundle: local_image
+label: 'Date Photo Taken'
+description: 'This field should be auto-populated from EXIF data.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

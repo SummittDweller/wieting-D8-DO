@@ -1,0 +1,22 @@
+uuid: 813c6d7f-e69c-482e-8b38-e5e1b95912b2
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - wieting
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: wieting_help
+theme: wieting
+region: '-1'
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

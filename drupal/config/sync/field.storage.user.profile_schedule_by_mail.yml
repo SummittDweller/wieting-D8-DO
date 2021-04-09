@@ -1,0 +1,18 @@
+uuid: 3313328b-237b-4bf9-9065-62f53449c3be
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.profile_schedule_by_mail
+field_name: profile_schedule_by_mail
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

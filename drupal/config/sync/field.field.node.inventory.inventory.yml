@@ -1,0 +1,25 @@
+uuid: d30c4a5a-46df-472a-8773-d61f6d70d86e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.inventory
+    - node.type.inventory
+    - taxonomy.vocabulary.inventory
+id: node.inventory.inventory
+field_name: inventory
+entity_type: node
+bundle: inventory
+label: Inventory
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - inventory
+    auto_create: true
+field_type: entity_reference
